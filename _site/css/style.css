@@ -1,40 +1,49 @@
 body {
-  margin: 0; }
+	margin:0;
+}
 
 nav {
-  z-index: 10; }
+	z-index:10;
+}
 
 img#ktchlogo {
-  width: 145px; }
+	width:145px;
+}
 
 nav ul li {
-  list-style: none;
-  text-align: left;
-  font-size: 17px;
-  line-height: 25px; }
+	list-style:none;
+	text-align:left;
+	font-size:17px;
+	line-height:25px;
+}
 
 li {
-  font-weight: 500;
-  padding-right: 25px;
-  color: #B53F32; }
+	font-weight: 500;
+	padding-right: 25px;
+	color: #B53F32;
+}
 
 li a {
-  text-decoration: none;
-  color: #B53F32; }
+	text-decoration: none;
+	color: #B53F32;
+}
 
 li a:hover {
-  text-decoration: underline;
-  color: #B53F32; }
+	text-decoration: underline;
+	color: #B53F32;
+}
 
 @media screen and (min-width:481px) {
-  nav {
-    position: fixed;
-    right: 15px;
-    top: 15px; }
-
-  footer {
-    background: #999999;
-    position: fixed;
-    width: 100%;
-    height: 50px;
-    bottom: 0; } }
+	nav {
+		position:fixed;
+		right:15px;
+		top:15px;
+	}
+	footer {
+		background:#999999;
+		position:fixed;
+		width:100%;
+		height:50px;
+		bottom:0;
+	}
+}
