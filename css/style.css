@@ -1,3 +1,10 @@
+@media screen and (min-width:481px) {
+  nav {
+    position: fixed; } }
+
+img#ktchlogo {
+  width: 150px; }
+
 li {
   display: inline;
   font-weight: 500;

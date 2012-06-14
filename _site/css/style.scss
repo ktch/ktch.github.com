@@ -1,4 +1,52 @@
+body {
+	margin:0;
+}
 
+nav {
+	z-index:10;
+	@media screen and (min-width:481px) {
+		position:fixed;
+		right:15px;
+		top:15px;
+	}
+}
+
+img#ktchlogo {
+	width:145px;
+}
+
+nav ul li {
+	list-style:none;
+	text-align:left;
+	font-size:17px;
+	line-height:25px;
+}
+
+li {
+	font-weight: 500;
+	padding-right: 25px;
+	color: #B53F32;
+}
+
+li a {
+	text-decoration: none;
+	color: #B53F32;
+}
+
+li a:hover {
+	text-decoration: underline;
+	color: #B53F32;
+}
+
+footer {
+	@media screen and (min-width:481px) {
+		background:#999999;
+		position:fixed;
+		width:100%;
+		height:50px;
+		bottom:0;
+	}
+}
 
 @import 'home';
 @import 'blog';
