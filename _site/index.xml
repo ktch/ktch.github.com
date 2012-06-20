@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:atom="http://www.w3.org/2005/Atom/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+	<channel>
+		<title>the Kitchen</title>
+		<link>http://thekitchen.co</link>
+		<pubDate>Mon, 26 Mar 2012 20:30:00 GMT</pubDate>
+		<description>
+			the Kitchen is a full-service film and design workshop where you can bring your best ideas.
+		</description>
+		<language>en-us</language>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/carsgirlsandsurfing"/>
+		<feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="carsgirlsandsurfing"/>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+		
+		
+		<item>
+			<title>Sports Arts</title>
+			<link>/sports-arts</link>
+			<guid>/sports-arts</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Solon Quinn Studios</title>
+			<link>/solon-quinn-studios</link>
+			<guid>/solon-quinn-studios</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Smallhd</title>
+			<link>/smallhd</link>
+			<guid>/smallhd</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Scratchoff</title>
+			<link>/scratchoff</link>
+			<guid>/scratchoff</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Some Thoughts on Podcasting</title>
+			<link>/ideas/podcasts</link>
+			<guid>/ideas/podcasts</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mauris erat, semper condimentum suscipit ac, tristique in dui. In tortor nibh, adipiscing eu tincidunt eu, cursus non urna. Ut aliquet rutrum ante, gravida dapibus nulla porta quis. Etiam pellentesque pulvinar orci. Fusce at pellentesque enim. Morbi feugiat nibh malesuada neque varius tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque condimentum elementum eleifend. Curabitur ultricies vehicula est vitae semper. Ut commodo placerat sapien id aliquet. Aenean sit amet nunc vestibulum dolor congue accumsan sit amet a diam. Vivamus non ipsum mi, eu bibendum nunc. Vestibulum non ante sed lectus adipiscing convallis. Cras mattis justo nec augue aliquet varius.</p>
+
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean consequat, nisi id lacinia eleifend, mauris quam accumsan ante, et pharetra ipsum dui at eros. Aliquam ut tellus eu diam mattis facilisis. Sed ac lacus sodales diam feugiat mattis ut nec enim. In lectus ipsum, interdum eu accumsan id, rhoncus id orci. Suspendisse id leo nec nibh semper venenatis. Donec at augue ac libero gravida tristique in sed sem. Curabitur ac convallis turpis. Maecenas venenatis, nibh a placerat vulputate, libero sapien pretium purus, id condimentum nunc odio varius justo. Cras at varius felis. Vestibulum in sapien turpis. In vitae accumsan nibh. Proin consectetur, quam non rhoncus luctus, lorem tortor condimentum enim, eget dapibus dui dolor a neque. In posuere erat ac dolor ornare sed vestibulum quam suscipit. Sed vel aliquam sem. Curabitur.</p>
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Mime</title>
+			<link>/mime</link>
+			<guid>/mime</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Kitchen Logo</title>
+			<link>/kitchen-logo</link>
+			<guid>/kitchen-logo</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Jll Skyline</title>
+			<link>/jll-skyline</link>
+			<guid>/jll-skyline</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Jersey Mikes Schoolyard</title>
+			<link>/jersey-mikes-schoolyard</link>
+			<guid>/jersey-mikes-schoolyard</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>How We Use Jekyll</title>
+			<link>/tools/jekyll</link>
+			<guid>/tools/jekyll</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Greetings, Jane Austen Nerds</title>
+			<link>/projects/jane-austen-day</link>
+			<guid>/projects/jane-austen-day</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Our Makeshift Interrotron</title>
+			<link>/tools/interrotron</link>
+			<guid>/tools/interrotron</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam ante, feugiat eu mattis pretium, posuere non leo. In egestas dui ut purus volutpat faucibus. Curabitur blandit rutrum ante, ut varius libero interdum non. Curabitur lobortis, justo sit amet vestibulum viverra, erat felis vestibulum tellus, elementum pharetra lectus magna sed arcu. Ut a adipiscing lacus. Class aptent taciti sociosqu ad.</p>
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>ExpressionEngine and Other Old Friends</title>
+			<link>/ideas/expressionengine</link>
+			<guid>/ideas/expressionengine</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam ante, feugiat eu mattis pretium, posuere non leo. In egestas dui ut purus volutpat faucibus. Curabitur blandit rutrum ante, ut varius libero interdum non. Curabitur lobortis, justo sit amet vestibulum viverra, erat felis vestibulum tellus, elementum pharetra lectus magna sed arcu. Ut a adipiscing lacus. Class aptent taciti sociosqu ad.</p>
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Derrick, our Campfire Chatbot</title>
+			<link>/tools/derrick</link>
+			<guid>/tools/derrick</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam ante, feugiat eu mattis pretium, posuere non leo. In egestas dui ut purus volutpat faucibus. Curabitur blandit rutrum ante, ut varius libero interdum non. Curabitur lobortis, justo sit amet vestibulum viverra, erat felis vestibulum tellus, elementum pharetra lectus magna sed arcu. Ut a adipiscing lacus. Class aptent taciti sociosqu ad.</p>
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>The Challenge Program</title>
+			<link>/projects/challenge-program</link>
+			<guid>/projects/challenge-program</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Cars, Girls, and Surfing dot com</title>
+			<link>/projects/cars-girls-and-surfing</link>
+			<guid>/projects/cars-girls-and-surfing</guid>
+			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				<p>Curabitur sed massa vel elit porttitor rutrum. Nunc aliquam, dui et tincidunt euismod, magna est sollicitudin sem, nec commodo dui ante mollis ligula. In accumsan ultrices urna quis ultricies. Duis rutrum rutrum porta. Nullam massa velit, bibendum non luctus a, malesuada sed neque. Donec tincidunt ante quis est lobortis dictum. In hac habitasse platea dictumst. Suspendisse ut erat quis eros pulvinar pretium. Fusce ut rutrum velit. Duis nulla massa, convallis et euismod ut, euismod eget arcu. Proin laoreet posuere consequat. Suspendisse varius tempor tortor eu malesuada. Quisque facilisis scelerisque tortor ac molestie. Nunc fringilla fermentum cursus.</p>
+
+<p>Praesent tempus, eros non molestie cursus, lectus ante auctor sem, a consequat risus nulla et orci. Etiam aliquam ipsum eget diam luctus lobortis. Duis dui augue, auctor ac porta sit amet, aliquam vitae nisi. Duis feugiat nisl vel risus viverra id tincidunt orci bibendum. Etiam enim eros, volutpat nec elementum eu, ultricies sed arcu. Integer facilisis neque nec lorem imperdiet tincidunt. Aliquam a ligula lectus, quis vehicula orci. Praesent laoreet, elit quis iaculis blandit, nunc metus tempus metus, a condimentum libero odio nec ante. In gravida adipiscing vehicula. Curabitur tincidunt, libero at sagittis lacinia, libero metus semper mauris, eget accumsan sem libero commodo felis. Integer iaculis ipsum id purus tristique ultricies. Nullam pretium congue eros, vel porttitor erat dignissim vestibulum. In nec libero non sapien consectetur congue nec nec sem. Donec ac libero risus, ut commodo mauris. Morbi posuere libero erat. Aliquam eu augue ligula, sed imperdiet lacus.</p>
+
+<p>Donec quam nisl, pretium at hendrerit eget, fermentum et diam. Fusce risus sem, accumsan et pulvinar a, facilisis eget orci. Morbi vitae augue vitae neque vehicula faucibus ut in elit. Vivamus ut risus eget erat pretium gravida. Etiam sit amet quam quis erat semper malesuada et in erat. Curabitur ac ante nec justo ullamcorper interdum ultricies eu tortor. Maecenas condimentum gravida risus, sit amet vehicula nisl dapibus pretium. Phasellus mollis tellus vel tellus ultricies venenatis. Donec non justo mi, a porta urna. Curabitur ultricies eros non ligula sollicitudin pulvinar. Suspendisse potenti. Aenean vestibulum consequat sodales. Phasellus mollis elit non lorem sodales dignissim. Curabitur quis felis tellus, non feugiat velit. Donec eget dolor elit. Phasellus in massa lacus, in lobortis mi. Quisque odio nunc, blandit vitae tincidunt ac, consequat et lorem.</p>
+			</content:encoded>
+		</item>
+		
+		
+	</channel>
+</rss>

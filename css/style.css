@@ -41,7 +41,7 @@ nav ul {
 }
 
 nav ul li {
-	font-weight:300;
+	font-weight:500;
 	list-style:none;
 	text-align:left;
 	font-size:16px;
@@ -101,7 +101,7 @@ a:hover {
 }
 
 .grid {
-	width:40%;
+	width:90%;
 	float:left;
 	margin:7px;
 	background:rgba(255,255,255,.5);
@@ -188,6 +188,10 @@ footer h6 {
 	b {
 		font-weight:500;
 		color:#B53F32;
+	}
+	
+	.grid {
+		width:40%;
 	}
 	
 	footer {
