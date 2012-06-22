@@ -1,33 +1,49 @@
 ---
 layout: home
+title: the Kitchen
 ---
 
-<article class="grid">
-	<iframe src="http://player.vimeo.com/video/43986888" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-	<h3 class="league">United Way Video</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam ante, feugiat eu mattis pretium, posuere non leo. In egestas dui ut purus volutpat faucibus...</p>
+{% for post in site.posts | limit: 1 %}
+
+<article class="top">
+	{% if post.video %}
+	<iframe src="http://player.vimeo.com/video/{{ post.video }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	{% else %}
+	<img class="postimage" src="/images/{{ post.image }}" alt="{{ post.image }}">
+	{% endif %}
+	<a href="{{ post.url }}"><h3 class="league">{{ post.title }}</h3></a>
+	{{ post.content | truncate: 400 }} <a href="{{ post.url }}">read more</a>
 </article>
 
-<article class="grid">
-	<iframe src="http://player.vimeo.com/video/29840158" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-	<h3 class="league">Jane Austen Day Festival</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam ante, feugiat eu mattis pretium, posuere non leo. In egestas dui ut purus volutpat faucibus...</p>
-</article>
+{% endfor %}
+
+<section class="featured">
+	
+{% for post in site.posts | offset: 1 | limit: 4 %}
 
 <article class="grid">
-	<iframe src="http://player.vimeo.com/video/29840158" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-	<h3 class="league">Jane Austen Day Festival</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam ante, feugiat eu mattis pretium, posuere non leo. In egestas dui ut purus volutpat faucibus...</p>
+	{% if post.video %}
+	<iframe src="http://player.vimeo.com/video/{{ post.video }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	{% else %}
+	<img class="postimage" src="/images/{{ post.image }}" alt="{{ post.image }}">
+	{% endif %}
+	<a href="{{ post.url }}"><h3 class="league">{{ post.title }}</h3></a>
+	{{ post.content | truncate: 140 }} <a href="{{ post.url }}">read more</a>
 </article>
 
-<article class="grid">
-	<iframe src="http://player.vimeo.com/video/43986888" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-	<h3 class="league">United Way Video</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam ante, feugiat eu mattis pretium, posuere non leo. In egestas dui ut purus volutpat faucibus...</p>
+{% endfor %}
+	
+</section>
+
+<section class="more">
+
+{% for post in site.posts | offset: 5 %}
+
+<article class="list">
+	<a href="{{ post.url }}"><h3 class="league">{{ post.title }}</h3></a>
+	<p class="dateline">{{ post.date | date: "%b %d" }}</p>
 </article>
 
-<article class="grid">
-	<iframe src="http://player.vimeo.com/video/29840158" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-	<h3 class="league">Jane Austen Day Festival</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam ante, feugiat eu mattis pretium, posuere non leo. In egestas dui ut purus volutpat faucibus...</p>
-</article>
+{% endfor %}
+
+</section>
