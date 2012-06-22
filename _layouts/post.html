@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% if post.video %}
+{% if page.video %}
 <iframe src="http://player.vimeo.com/video/{{ page.video }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 {% else %}
 <img class="postimage" src="/images/{{ page.image }}" alt="{{ post.image }}">
