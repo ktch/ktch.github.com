@@ -3,7 +3,7 @@ layout: post
 title: Our Makeshift Interrotron
 categories: tools
 project: superconnector
-video: 555
+image: interrotron.jpg
 author: Zach Phillips
 ---
 
