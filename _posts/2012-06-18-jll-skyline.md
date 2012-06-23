@@ -5,7 +5,7 @@ video: 555
 author: Zach Phillips
 ---
 
-The problem: Jones Lang LaSalle's Atlanta branch needed a mobile way to browse their commercial real estate portfolio. 
+Jones Lang LaSalle's Atlanta branch needed a mobile way to browse their commercial real estate portfolio. 
 
 What they had was a huge poster-sized InDesign document. Our job was to figure out how to get that whole poster (with more than fifty buildings and availability and agent contact information for each) into a mobile-optimized view, easy to quickly browse.
 

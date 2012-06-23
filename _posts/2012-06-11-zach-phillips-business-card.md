@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A (Slightly) Interactive Business Card
+title: An Interactive Business Card
 project: creativeconsultant
 image: zachbusinesscard.jpg
 author: Zach Phillips

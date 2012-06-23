@@ -131,6 +131,10 @@ a:hover {
 	width:100%;
 }
 
+.grid img.postimage {
+	margin-bottom:-25px;
+}
+
 .grid h3 {
 	color:#B53F32;
 	padding:0;
@@ -372,6 +376,7 @@ footer h6 {
 	
 	.grid {
 		width:45%;
+		min-height:380px;
 		float:left;
 		margin:1% 1% 0 0;
 		background:rgba(255,255,255,.5);
@@ -391,6 +396,7 @@ footer h6 {
 	.grid p {
 		font-size:15px;
 		margin:5px 0;
+		padding:0;
 		font-weight:300;
 		border-bottom:none;
 	}

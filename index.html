@@ -12,14 +12,14 @@ title: the Kitchen
 	<img class="postimage" src="/images/{{ post.image }}" alt="{{ post.image }}">
 	{% endif %}
 	<a href="{{ post.url }}"><h3 class="league">{{ post.title }}</h3></a>
-	{{ post.content | truncate: 400 }} <a href="{{ post.url }}">read more</a>
+	{{ post.content | truncate: 300 }} <a href="{{ post.url }}">read more</a>
 </article>
 
 {% endfor %}
 
 <section class="featured">
 	
-{% for post in site.posts | offset: 1 | limit: 4 %}
+{% for post in site.posts | offset: 1 %}
 
 <article class="grid">
 	{% if post.video %}
@@ -28,7 +28,7 @@ title: the Kitchen
 	<img class="postimage" src="/images/{{ post.image }}" alt="{{ post.image }}">
 	{% endif %}
 	<a href="{{ post.url }}"><h3 class="league">{{ post.title }}</h3></a>
-	{{ post.content | truncate: 140 }} <a href="{{ post.url }}">read more</a>
+	{{ post.content | truncate: 250 }} <a href="{{ post.url }}">read more</a>
 </article>
 
 {% endfor %}
@@ -36,14 +36,5 @@ title: the Kitchen
 </section>
 
 <section class="more">
-
-{% for post in site.posts | offset: 5 %}
-
-<article class="list">
-	<a href="{{ post.url }}"><h3 class="league">{{ post.title }}</h3></a>
-	<p class="dateline">{{ post.date | date: "%b %d" }}</p>
-</article>
-
-{% endfor %}
-
+	
 </section>

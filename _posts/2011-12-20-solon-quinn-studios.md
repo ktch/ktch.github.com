@@ -2,7 +2,7 @@
 layout: post
 title: A Paper Leavebehind
 project: solonquinn
-image: solonquinnleavebehind.jpg
+video: 44559938
 author: Zach Phillips
 ---
 

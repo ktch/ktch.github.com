@@ -32,114 +32,28 @@
 		</item>
 		
 		<item>
-			<title>Throwback Spot</title>
-			<link>/jersey-mikes-schoolyard</link>
-			<guid>/jersey-mikes-schoolyard</guid>
-			<pubDate>2012-06-21 00:00:00 -0400</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>Last year, we traveled out to Los Angeles and drove about an hour north of the city to the charming town of Ojai (pronounced &#8220;Oh, Hi!&#8221;) to shoot a television spot for <a href='http://jerseymikes.com'>Jersey Mike&#8217;s Subs</a>.</p>
-
-<p>You may not know about Mike&#8217;s if they aren&#8217;t in your area, but over the last several years, they&#8217;ve opened something like 600 stores nationwide.</p>
-
-<p>I had come up with a concept based on a lot of the brand strategy I&#8217;d seen them implementing over the years I worked for <a href='http://scherzi.com'>Scherzi Studios</a>. The concept was to make a spot that harkened back to some of the spots I remember from childhood. <a href='http://www.youtube.com/watch?v=ex2DJnvyFsI'>One in particular</a> I remember was for Pizza Hut and really left an impression about Pizza Hut being a kid- and family-friendly place that supports local kids.</p>
-
-<p>Well, that&#8217;s what Jersey Mike&#8217;s message is all about, so on a whim I just scratched out this concept about a magical submarine sandwich that fixes up the playground at a distressed school.</p>
-
-<p>In casting, I was definitely looking for someone a little less whitebread blond and blue eyed, but Taylor</p>
-			</content:encoded>
-		</item>
-		
-		<item>
-			<title>A Paper Leavebehind</title>
-			<link>/solon-quinn-studios</link>
-			<guid>/solon-quinn-studios</guid>
+			<title>A Scratchoff for the Mobile Web</title>
+			<link>/projects/scratchoff</link>
+			<guid>/projects/scratchoff</guid>
 			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
 			<author>thekitchen.co</author>
 			<description>
 				
 			</description>
 			<content:encoded>
-				<p>I got a call from an old friend back in Syracuse (a filmmaker named <a href='http://solonquinnstudios.com'>Solon Quinn</a>. He needed a creative leavebehind for an upcoming trip to New York City.</p>
+				<p>While working on <a href='/work/bp-hawks'>the mobile sweepstakes promotion for the Atlanta Hawks and British Petroleum</a>, it became evident pretty quickly that this could be a good fit for a lot of companies, so we built a subdomain-based Rails app.</p>
 
-<p>He, along with Benjamin Schechter (a very close friend of mine working as a producer with Solon&#8217;s company), would be touring the ad agencies, trying to find some higher profile (and higher paying) work than they were getting in Syracuse.</p>
+<p>The first thing we had to do was find a way to leverage touch and the HTML5 canvas for creating the scratchoff (or more accurately, wipe-away or eraser) capability. It would need to function well on both iOS and Android, the two leaders in the handset market. The rest of the players are pretty hit or miss in terms of web standards support, but luckily, their marketshare is also pretty pitiful, and so we felt safe to ignore them. It&#8217;s worth noting that there&#8217;s a ton of fragmentation within Android itself, and so we couldn&#8217;t guarantee blanket support across the hundreds of devices in that category, but our testing showed support on every device we tried, some of them as old as three years, and the vast majority running 2.3.</p>
 
-<p>Originally, it was going to be a simple copywriting job, and after having our recorded conference call using <a href='http://campfirenow.com'>Campfire</a>, the message that came to light was &#8220;We are a small production house, and this is advantageous, because we are more nimble, more passionate, and with fewer account executives and less bureaucracy. We also make <a href='https://vimeo.com/28311976'>great stuff</a> and we have the tools to compete with any production values offered by the big guys you currently work with.&#8221;</p>
+<p>Our savior was a frenchman (or Belgian?) who goes by the handle of <a href='http://twitter.com/boblemarin'>@boblemarin</a>. He had created a jQuery plugin called <a href='http://minimal.be/lab/jQuery.eraser/'>jQuery.eraser</a>, which takes any image pass in and turns it into an HTML5 canvas element erasable by both cursor and (most importantly for us) touch.</p>
 
-<p>We were on a very tight budget and an even tighter schedule, and the answer to this problem didn&#8217;t come very easily. And again&#8230; the budget.</p>
+<p>We only had to make a few tweaks to the code, allowing it to use images optimized for Retina displays, and the result was really fun. I found myself playing it over and over simply because it was fun to scratch off the image. It really feels like a native app running in the iPhone&#8217;s browser.</p>
 
-<p>So I was hanging out with <a href='http://geoffmatheson.com'>Geoff Matheson</a>, get-your-hands-dirty-design extraordinaire, and he kept talking about how &#8220;sometimes you need to just sit down and start folding paper.&#8221;</p>
+<p>The rest of the process entailed figuring out how to return a <em>weighted</em> random result (weighted by the odds of winning each prize) and using cookies and some server-side code to prevent abuse.</p>
 
-<p>This is when the idea came. How small could we fold a large piece of newsprint down to?</p>
+<p><a href='http://mobilezen.com'>mobilezen</a> (my first client after going independent three years ago) offered to go into a partnership where they would handle the sales, billing, and support, so the Kitchen could focus only on making the game as awesome as it could be.</p>
 
-<p>From there it was some slick typography by <a href='http://kellysullan.com'>Kelly Sullan</a>, a big pad of newsprint, some custom X-acto cut stencils, 20 some-odd cans of spraypaint, and Geoff Matheson working his ass off for far too little money. But the result was awesome.</p>
-
-<p>Included with the little package was a custom disk image burned to a seriously cool metal thumbdrive stamped with the company&#8217;s logo in white. Same drive you get with a <a href='/smallhd'>smallHD monitor</a>. The drive had examples of the studio&#8217;s work and a .webloc aiming at a fullpage javascript slideshow leading to their site. This way, not only could we track analytics on people who got the drives, but we could also update and change what they would see whenever we wanted. Also, PDF&#8217;s are never fun to open, and almost always look bad without user manipulation (zooming, etc.). PDF is an incredibly useful format, but not for promotion.</p>
-
-<p><strong>A quick note for others attempting the custom .dmg:</strong> At the time we did this, it was not possible to have the disk automatically pop open when inserted into the USB port. This is a security feature of Mac OS X and (we assume) other operating systems. So although we were able to get the custom installer-style folder to work (using <a href='https://store.araelium.com/home/'>DMG Canvas</a>&#8230; not a great app but it works and it&#8217;s cheap), we couldn&#8217;t get the <em>exact</em> interaction we wanted.</p>
-			</content:encoded>
-		</item>
-		
-		<item>
-			<title>A Mobile Poster</title>
-			<link>/jll-skyline</link>
-			<guid>/jll-skyline</guid>
-			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>What they had was a huge poster-sized InDesign document. Our job was to figure out how to get that whole poster (with more than fifty buildings and availability and agent contact information for each) into a mobile-optimized view, easy to quickly browse.</p>
-
-<p>My first choice would have been to use Raphael.js to draw the buildings with Scalable Vector Graphics or Paper.js to accomplish it in an HTML5 canvas, but that kind of fanciness wasn&#8217;t in the budget.</p>
-
-<p>The answer was <a href='http://cubiq.org/swipeview'>SwipeView by Matteo Spinelli at cubiq.org</a>. Spinelli is a bad-ass master of mobile javascript, and SwipeView was exactly what I needed. It&#8217;s basically a seamlessly loopable carousel for the mobile web, optimized for touch and hardware-acceleration, making the swipe action silky smooth in Mobile Safari. Every bit as smooth as a native app. It also only loads the next and previous item to the currently viewed item, so it&#8217;s great on memory and bandwidth as well.</p>
-
-<p>I think the solution worked out really well, and it&#8217;s already built into the skeleton of a Rails app, so if another client has a larger-scale use for this kind of browsing, we&#8217;ll be ready to build the rest of that out. I think it&#8217;s a really great way to look through products, browse directories, etc. on mobile.</p>
-
-<p>I&#8217;d built in a custom search field using <a href='https://github.com/harvesthq/chosen/'>jQuery.chosen</a>, but the native iPhone drop-down ended up performing a lot better and didn&#8217;t have all of the independently scrolling div problems you have with mobile (<a href='http://cubiq.org/iscroll-4'>which Spinelli has also addressed</a>, though his solution was too hacky an alternative for my needs).</p>
-			</content:encoded>
-		</item>
-		
-		<item>
-			<title>How We Use Jekyll</title>
-			<link>/tools/jekyll</link>
-			<guid>/tools/jekyll</guid>
-			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam ante, feugiat eu mattis pretium, posuere non leo. In egestas dui ut purus volutpat faucibus. Curabitur blandit rutrum ante, ut varius libero interdum non. Curabitur lobortis, justo sit amet vestibulum viverra, erat felis vestibulum tellus, elementum pharetra lectus magna sed arcu. Ut a adipiscing lacus. Class aptent taciti sociosqu ad.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam ante, feugiat eu mattis pretium, posuere non leo. In egestas dui ut purus volutpat faucibus. Curabitur blandit rutrum ante, ut varius libero interdum non. Curabitur lobortis, justo sit amet vestibulum viverra, erat felis vestibulum tellus, elementum pharetra lectus magna sed arcu. Ut a adipiscing lacus. Class aptent taciti sociosqu ad.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam ante, feugiat eu mattis pretium, posuere non leo. In egestas dui ut purus volutpat faucibus. Curabitur blandit rutrum ante, ut varius libero interdum non. Curabitur lobortis, justo sit amet vestibulum viverra, erat felis vestibulum tellus, elementum pharetra lectus magna sed arcu. Ut a adipiscing lacus. Class aptent taciti sociosqu ad.</p>
-			</content:encoded>
-		</item>
-		
-		<item>
-			<title>Greetings, Jane Austen Nerds</title>
-			<link>/work/jane-austen-day</link>
-			<guid>/work/jane-austen-day</guid>
-			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>Sometimes you take a low-paying project from a non-profit just because it sounds like it&#8217;s going to be fun. This was one of those projects.</p>
-
-<p>The <a href='http://www.jasnaeastpa.org/'>Jane Austen Society of North America, Eastern Pennsylvania Region</a> (not to be confused with the Jane Austen Society of North America, Western Pennsylvania Region&#8230;) wanted to put together some little 15-30 second videos to promote their big Jane Austen Day event.</p>
-
-<p>I did not know how much Jane Austen hysteria was going on around the nation and here in our own back yard, and just to warn you, these little spots epitomize the &#8220;inside joke.&#8221;</p>
-
-<p>I really liked doing this project and what a <em>killer</em> voiceover from <a href='http://voice123.com/francissmith1'>Nick Smith</a>.</p>
+<p>It&#8217;s been sold several times since then, but we&#8217;re still looking for a big client who wants to take their mobile game to the next level. You see sweepstakes games on virtually every soda bottle and fast food cup in the world, but they&#8217;re usually terrible experiences where you have to go to some website and type in a 419 digit alphanumeric code to find out whether you&#8217;ve won a <em>chance</em> to win a backpack or something like that. The immediacy and touchability of <a href='http://scratchoff.me'>Scratchoff.me</a> is a greatly superior experience and really gives customers something fun to do and a tremendously positive brand impression.</p>
 			</content:encoded>
 		</item>
 		
@@ -172,56 +86,10 @@
 		</item>
 		
 		<item>
-			<title>Atlanta Hawks and BP Sweepstakes Promotion</title>
-			<link>/projects/bp-hawks</link>
-			<guid>/projects/bp-hawks</guid>
-			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>The Atlanta Hawks and BP came to us via <a href='http://mobilezen.com'>mobilezen</a> and wanted to do a mobile sweepstakes at a few games during the 2011-2012 season.</p>
-
-<p>They would have been satisfied with something as simple as a Wufoo implementation or an email or SMS auto-response, but I had an idea I thought would be perfect for this, and would make the interaction infinitely more fun for the customers: a scratchoff game!</p>
-
-<p>Afterwards, <a href='/projects/scratchoff'>we built the game into a fully-functioning Rails app</a>. You can create your own promotion, create your look, your prizes, set the odds and inventory numbers, choose a sub-domain and you&#8217;re rolling.</p>
-
-<p><a href='http://scratchoff.me'>Scratchoff.me</a> is released in partnership with mobilezen, who is handling sales, billing, and support, while the Kitchen gets to focus only on making the product as delightful as possible.</p>
-			</content:encoded>
-		</item>
-		
-		<item>
-			<title>A Scratchoff for the Mobile Web</title>
-			<link>/projects/scratchoff</link>
-			<guid>/projects/scratchoff</guid>
-			<pubDate>2012-06-18 00:00:00 -0400</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>While working on <a href='/work/bp-hawks'>the mobile sweepstakes promotion for the Atlanta Hawks and British Petroleum</a>, it became evident pretty quickly that this could be a good fit for a lot of companies, so we built a subdomain-based Rails app.</p>
-
-<p>The first thing we had to do was find a way to leverage touch and the HTML5 canvas for creating the scratchoff (or more accurately, wipe-away or eraser) capability. It would need to function well on both iOS and Android, the two leaders in the handset market. The rest of the players are pretty hit or miss in terms of web standards support, but luckily, their marketshare is also pretty pitiful, and so we felt safe to ignore them. It&#8217;s worth noting that there&#8217;s a ton of fragmentation within Android itself, and so we couldn&#8217;t guarantee blanket support across the hundreds of devices in that category, but our testing showed support on every device we tried, some of them as old as three years, and the vast majority running 2.3.</p>
-
-<p>Our savior was a frenchman (or Belgian?) who goes by the handle of <a href='http://twitter.com/boblemarin'>@boblemarin</a>. He had created a jQuery plugin called <a href='http://minimal.be/lab/jQuery.eraser/'>jQuery.eraser</a>, which takes any image pass in and turns it into an HTML5 canvas element erasable by both cursor and (most importantly for us) touch.</p>
-
-<p>We only had to make a few tweaks to the code, allowing it to use images optimized for Retina displays, and the result was really fun. I found myself playing it over and over simply because it was fun to scratch off the image. It really feels like a native app running in the iPhone&#8217;s browser.</p>
-
-<p>The rest of the process entailed figuring out how to return a <em>weighted</em> random result (weighted by the odds of winning each prize) and using cookies and some server-side code to prevent abuse.</p>
-
-<p><a href='http://mobilezen.com'>mobilezen</a> (my first client after going independent three years ago) offered to go into a partnership where they would handle the sales, billing, and support, so the Kitchen could focus only on making the game as awesome as it could be.</p>
-
-<p>It&#8217;s been sold several times since then, but we&#8217;re still looking for a big client who wants to take their mobile game to the next level. You see sweepstakes games on virtually every soda bottle and fast food cup in the world, but they&#8217;re usually terrible experiences where you have to go to some website and type in a 419 digit alphanumeric code to find out whether you&#8217;ve won a <em>chance</em> to win a backpack or something like that. The immediacy and touchability of <a href='http://scratchoff.me'>Scratchoff.me</a> is a greatly superior experience and really gives customers something fun to do and a tremendously positive brand impression.</p>
-			</content:encoded>
-		</item>
-		
-		<item>
 			<title>The Challenge Program</title>
 			<link>/work/challenge-program</link>
 			<guid>/work/challenge-program</guid>
-			<pubDate>2012-06-17 00:00:00 -0400</pubDate>
+			<pubDate>2012-06-19 00:00:00 -0400</pubDate>
 			<author>thekitchen.co</author>
 			<description>
 				
@@ -252,7 +120,31 @@
 		</item>
 		
 		<item>
-			<title>A (Slightly) Interactive Business Card</title>
+			<title>A Mobile Poster</title>
+			<link>/jll-skyline</link>
+			<guid>/jll-skyline</guid>
+			<pubDate>2012-06-18 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				<p>Jones Lang LaSalle&#8217;s Atlanta branch needed a mobile way to browse their commercial real estate portfolio.</p>
+
+<p>What they had was a huge poster-sized InDesign document. Our job was to figure out how to get that whole poster (with more than fifty buildings and availability and agent contact information for each) into a mobile-optimized view, easy to quickly browse.</p>
+
+<p>My first choice would have been to use Raphael.js to draw the buildings with Scalable Vector Graphics or Paper.js to accomplish it in an HTML5 canvas, but that kind of fanciness wasn&#8217;t in the budget.</p>
+
+<p>The answer was <a href='http://cubiq.org/swipeview'>SwipeView by Matteo Spinelli at cubiq.org</a>. Spinelli is a bad-ass master of mobile javascript, and SwipeView was exactly what I needed. It&#8217;s basically a seamlessly loopable carousel for the mobile web, optimized for touch and hardware-acceleration, making the swipe action silky smooth in Mobile Safari. Every bit as smooth as a native app. It also only loads the next and previous item to the currently viewed item, so it&#8217;s great on memory and bandwidth as well.</p>
+
+<p>I think the solution worked out really well, and it&#8217;s already built into the skeleton of a Rails app, so if another client has a larger-scale use for this kind of browsing, we&#8217;ll be ready to build the rest of that out. I think it&#8217;s a really great way to look through products, browse directories, etc. on mobile.</p>
+
+<p>I&#8217;d built in a custom search field using <a href='https://github.com/harvesthq/chosen/'>jQuery.chosen</a>, but the native iPhone drop-down ended up performing a lot better and didn&#8217;t have all of the independently scrolling div problems you have with mobile (<a href='http://cubiq.org/iscroll-4'>which Spinelli has also addressed</a>, though his solution was too hacky an alternative for my needs).</p>
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>An Interactive Business Card</title>
 			<link>/zach-phillips-business-card</link>
 			<guid>/zach-phillips-business-card</guid>
 			<pubDate>2012-06-11 00:00:00 -0400</pubDate>
@@ -290,30 +182,64 @@
 		</item>
 		
 		<item>
-			<title>Cars, Girls, and Surfing dot com</title>
-			<link>/work/cars-girls-and-surfing</link>
-			<guid>/work/cars-girls-and-surfing</guid>
-			<pubDate>2012-05-20 00:00:00 -0400</pubDate>
+			<title>Atlanta Hawks and BP Sweepstakes</title>
+			<link>/projects/bp-hawks</link>
+			<guid>/projects/bp-hawks</guid>
+			<pubDate>2012-04-17 00:00:00 -0400</pubDate>
 			<author>thekitchen.co</author>
 			<description>
 				
 			</description>
 			<content:encoded>
-				<p>When I was in college, I wanted to get a catchy domain for myself, so I purchased carsgirlsandsurfing.com, and truthfully, I was and still am tremendously surprised it was available. I know I&#8217;m not the only Beach Boys fan in the world.</p>
+				<p>The Atlanta Hawks and BP came to us via <a href='http://mobilezen.com'>mobilezen</a> and wanted to do a mobile sweepstakes at a few games during the 2011-2012 season.</p>
 
-<p>I had put a site up at the time created totally in Fireworks, so basically a big, cut up GIF in a table, with some simple javascript rollover behavior I learned in a web class I was auditing, and I proceeded to do nothing ever with the site other than make <a href='http://www.youtube.com/watch?v=CS-UZGucMSU'>this video</a> a couple years later when my friend Peter was skunked out of his house and staying on my couch (more on that video and the skunk incident someday).</p>
+<p>They would have been satisfied with something as simple as a Wufoo implementation or an email or SMS auto-response, but I had an idea I thought would be perfect for this, and would make the interaction infinitely more fun for the customers: a scratchoff game!</p>
 
-<p>But I kept paying the domain registration and to this day I have high hopes for what the site could someday be. It&#8217;s just such a great name to me! (I&#8217;m probably the only one)</p>
+<p>Afterwards, <a href='/projects/scratchoff'>we built the game into a fully-functioning Rails app</a>. You can create your own promotion, create your look, your prizes, set the odds and inventory numbers, choose a sub-domain and you&#8217;re rolling.</p>
 
-<p>Well, <a href='http://carsgirlsandsurfing.com'>here it is</a>. A podcast network! (Everyone should have their own podcast network&#8230;)</p>
+<p><a href='http://scratchoff.me'>Scratchoff.me</a> is released in partnership with mobilezen, who is handling sales, billing, and support, while the Kitchen gets to focus only on making the product as delightful as possible.</p>
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Greetings, Jane Austen Nerds</title>
+			<link>/work/jane-austen-day</link>
+			<guid>/work/jane-austen-day</guid>
+			<pubDate>2012-03-23 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				<p>Sometimes you take a low-paying project from a non-profit just because it sounds like it&#8217;s going to be fun. This was one of those projects.</p>
 
-<p>Not many shows there yet, and the quality isn&#8217;t good, but I have a lot of plans for it, including traditional hour-long talk shows and short web series that we come up with. You can think of the Cars, Girls, and Surfing syndicate as the breakroom at the Kitchen, or the steps out back by the dumpster where you go to have a cigarette on a slow night. More or less, it&#8217;s the place where I will try to be less judgmental (right). It&#8217;s just hobby stuff, for fun, and like the Buddists say, it isn&#8217;t good or bad. It just is.</p>
+<p>The <a href='http://www.jasnaeastpa.org/'>Jane Austen Society of North America, Eastern Pennsylvania Region</a> (not to be confused with the Jane Austen Society of North America, Western Pennsylvania Region&#8230;) wanted to put together some little 15-30 second videos to promote their big Jane Austen Day event.</p>
 
-<p>Made some cool stuff for it though, including a javascript HTML5 record player that works well on both mobile and desktop. <a href='http://carsgirlsandsurfing.com/meditating/1/'>Check it out</a>. I started with <a href='http://pedroduarte.me/lab/turntable/'>a prototype built by Pedro Duarte</a> and added some functionality to it like a skip forward and back 30 seconds (essential to podcast listening in my opinion).</p>
+<p>I did not know how much Jane Austen hysteria was going on around the nation and here in our own back yard, and just to warn you, these little spots epitomize the &#8220;inside joke.&#8221;</p>
 
-<p>It&#8217;s responsive (of course), built on Jekyll, and may be the first and last time I feel justified in using Cooper Black.</p>
+<p>I really liked doing this project and what a <em>killer</em> voiceover from <a href='http://voice123.com/francissmith1'>Nick Smith</a>.</p>
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Throwback Spot</title>
+			<link>/jersey-mikes-schoolyard</link>
+			<guid>/jersey-mikes-schoolyard</guid>
+			<pubDate>2012-02-13 00:00:00 -0500</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				<p>Last year, we traveled out to Los Angeles and drove about an hour north of the city to the charming town of Ojai (pronounced &#8220;Oh, Hi!&#8221;) to shoot a television spot for <a href='http://jerseymikes.com'>Jersey Mike&#8217;s Subs</a>.</p>
 
-<p>Still needs a lot of work (no judgment).</p>
+<p>You may not know about Mike&#8217;s if they aren&#8217;t in your area, but over the last several years, they&#8217;ve opened something like 600 stores nationwide.</p>
+
+<p>I had come up with a concept based on a lot of the brand strategy I&#8217;d seen them implementing over the years I worked for <a href='http://scherzi.com'>Scherzi Studios</a>. The concept was to make a spot that harkened back to some of the spots I remember from childhood. <a href='http://www.youtube.com/watch?v=ex2DJnvyFsI'>One in particular</a> I remember was for Pizza Hut and really left an impression about Pizza Hut being a kid- and family-friendly place that supports local kids.</p>
+
+<p>Well, that&#8217;s what Jersey Mike&#8217;s message is all about, so on a whim I just scratched out this concept about a magical submarine sandwich that fixes up the playground at a distressed school.</p>
+
+<p>In casting, I was definitely looking for someone a little less whitebread blond and blue eyed, but Taylor</p>
 			</content:encoded>
 		</item>
 		
@@ -442,6 +368,36 @@
 <p>It&#8217;s outside-the-box, I know. But it might be just the thing.</p>
 
 <p>Anyone want to work on this? We&#8217;ll help. Or you can just take it and run with it.</p>
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>A Paper Leavebehind</title>
+			<link>/solon-quinn-studios</link>
+			<guid>/solon-quinn-studios</guid>
+			<pubDate>2011-12-20 00:00:00 -0500</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				<p>I got a call from an old friend back in Syracuse (a filmmaker named <a href='http://solonquinnstudios.com'>Solon Quinn</a>. He needed a creative leavebehind for an upcoming trip to New York City.</p>
+
+<p>He, along with Benjamin Schechter (a very close friend of mine working as a producer with Solon&#8217;s company), would be touring the ad agencies, trying to find some higher profile (and higher paying) work than they were getting in Syracuse.</p>
+
+<p>Originally, it was going to be a simple copywriting job, and after having our recorded conference call using <a href='http://campfirenow.com'>Campfire</a>, the message that came to light was &#8220;We are a small production house, and this is advantageous, because we are more nimble, more passionate, and with fewer account executives and less bureaucracy. We also make <a href='https://vimeo.com/28311976'>great stuff</a> and we have the tools to compete with any production values offered by the big guys you currently work with.&#8221;</p>
+
+<p>We were on a very tight budget and an even tighter schedule, and the answer to this problem didn&#8217;t come very easily. And again&#8230; the budget.</p>
+
+<p>So I was hanging out with <a href='http://geoffmatheson.com'>Geoff Matheson</a>, get-your-hands-dirty-design extraordinaire, and he kept talking about how &#8220;sometimes you need to just sit down and start folding paper.&#8221;</p>
+
+<p>This is when the idea came. How small could we fold a large piece of newsprint down to?</p>
+
+<p>From there it was some slick typography by <a href='http://kellysullan.com'>Kelly Sullan</a>, a big pad of newsprint, some custom X-acto cut stencils, 20 some-odd cans of spraypaint, and Geoff Matheson working his ass off for far too little money. But the result was awesome.</p>
+
+<p>Included with the little package was a custom disk image burned to a seriously cool metal thumbdrive stamped with the company&#8217;s logo in white. Same drive you get with a <a href='/smallhd'>smallHD monitor</a>. The drive had examples of the studio&#8217;s work and a .webloc aiming at a fullpage javascript slideshow leading to their site. This way, not only could we track analytics on people who got the drives, but we could also update and change what they would see whenever we wanted. Also, PDF&#8217;s are never fun to open, and almost always look bad without user manipulation (zooming, etc.). PDF is an incredibly useful format, but not for promotion.</p>
+
+<p><strong>A quick note for others attempting the custom .dmg:</strong> At the time we did this, it was not possible to have the disk automatically pop open when inserted into the USB port. This is a security feature of Mac OS X and (we assume) other operating systems. So although we were able to get the custom installer-style folder to work (using <a href='https://store.araelium.com/home/'>DMG Canvas</a>&#8230; not a great app but it works and it&#8217;s cheap), we couldn&#8217;t get the <em>exact</em> interaction we wanted.</p>
 			</content:encoded>
 		</item>
 		

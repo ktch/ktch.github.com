@@ -3,6 +3,7 @@ layout: post
 title: The Challenge Program
 categories: work
 project: challenge
+video: 44556613
 author: Zach Phillips
 ---
 
