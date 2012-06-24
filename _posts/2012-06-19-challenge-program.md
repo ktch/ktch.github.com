@@ -5,6 +5,7 @@ categories: work
 project: challenge
 video: 44556613
 author: Zach Phillips
+synopsis: Some thoughts on doing pro-bono work, and our first responsive web design.
 ---
 
 When I first got to Delaware, I balked for a long time at looking for Delaware clientele. I still had some clients in Atlanta and Syracuse, and the idea of starting over felt pretty daunting. But after a little while, it became evident that I should suck it up and go meet some people. I'm going to be here for a while (my fiancé is an attorney specializing in corporate bankruptcy). So I decided I'd do something I'd sworn off a dozen times before: **pro-bono work**.

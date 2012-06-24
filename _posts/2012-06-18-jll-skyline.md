@@ -3,6 +3,7 @@ layout: post
 title: A Mobile Poster
 video: 44581357
 author: Zach Phillips
+synopsis: We had to condense an entire commercial real estate portfolio down to a mobile web form factor. Here's what we came up with.
 ---
 
 Jones Lang LaSalle's Atlanta branch needed a mobile way to browse their commercial real estate portfolio. 

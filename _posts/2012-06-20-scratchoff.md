@@ -4,6 +4,7 @@ title: A Scratchoff for the Mobile Web
 categories: projects
 video: 44545692
 author: Zach Phillips
+synopsis: Our first commercial product. It lets you run custom scratchoff campaigns with prizes and odds without your customers having to download an app.
 ---
 
 While working on [the mobile sweepstakes promotion for the Atlanta Hawks and British Petroleum](/work/bp-hawks), it became evident pretty quickly that this could be a good fit for a lot of companies, so we built a subdomain-based Rails app.

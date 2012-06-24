@@ -5,6 +5,7 @@ categories: work
 project: austen
 video: 29840158
 author: Zach Phillips
+synopsis: Seriously inside jokes for Jane Austen fanatics. This was a fun job we did for the Jane Austen Society of North America.
 ---
 
 Sometimes you take a low-paying project from a non-profit just because it sounds like it's going to be fun. This was one of those projects.

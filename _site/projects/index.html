@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>A Mobile Poster</title>
+  <title></title>
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -44,30 +44,26 @@
 
 <section id="main">
 	
-<iframe src="http://player.vimeo.com/video/44581357" height="720" width="1280" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+<article class="grid">
+	
+	<iframe src="http://player.vimeo.com/video/44545692" width="1280" height="720" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	
+	<a href="/projects/scratchoff"><h3 class="league">A Scratchoff for the Mobile Web</h3></a>
+	<p>Our first commercial product. It lets you run custom scratchoff campaigns with prizes and odds without your customers having to download an app.</p> <p><a href="/projects/scratchoff">read post</a></p>
+</article>
 
 
-<section class="post">
 
-<h1 class="posttitle league">A Mobile Poster</h1>
+<article class="grid">
+	
+	<iframe src="http://player.vimeo.com/video/44582214" width="1280" height="720" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	
+	<a href="/projects/bp-hawks"><h3 class="league">Atlanta Hawks and BP Sweepstakes</h3></a>
+	<p>This was the promotion that sparked the creation of Scratchoff.me.</p> <p><a href="/projects/bp-hawks">read post</a></p>
+</article>
 
-<p class="byline">posted by <a href="/phillips">Zach Phillips</a>
-
-<p>Jones Lang LaSalle&#8217;s Atlanta branch needed a mobile way to browse their commercial real estate portfolio.</p>
-
-<p>What they had was a huge poster-sized InDesign document. Our job was to figure out how to get that whole poster (with more than fifty buildings and availability and agent contact information for each) into a mobile-optimized view, easy to quickly browse.</p>
-
-<p>My first choice would have been to use Raphael.js to draw the buildings with Scalable Vector Graphics or Paper.js to accomplish it in an HTML5 canvas, but that kind of fanciness wasn&#8217;t in the budget.</p>
-
-<p>The answer was <a href='http://cubiq.org/swipeview'>SwipeView by Matteo Spinelli at cubiq.org</a>. Spinelli is a bad-ass master of mobile javascript, and SwipeView was exactly what I needed. It&#8217;s basically a seamlessly loopable carousel for the mobile web, optimized for touch and hardware-acceleration, making the swipe action silky smooth in Mobile Safari. Every bit as smooth as a native app. It also only loads the next and previous item to the currently viewed item, so it&#8217;s great on memory and bandwidth as well.</p>
-
-<p>I think the solution worked out really well, and it&#8217;s already built into the skeleton of a Rails app, so if another client has a larger-scale use for this kind of browsing, we&#8217;ll be ready to build the rest of that out. I think it&#8217;s a really great way to look through products, browse directories, etc. on mobile.</p>
-
-<p>I&#8217;d built in a custom search field using <a href='https://github.com/harvesthq/chosen/'>jQuery.chosen</a>, but the native iPhone drop-down ended up performing a lot better and didn&#8217;t have all of the independently scrolling div problems you have with mobile (<a href='http://cubiq.org/iscroll-4'>which Spinelli has also addressed</a>, though his solution was too hacky an alternative for my needs).</p>
-
-<p class="dateline">Posted Monday, June 18</p>
-
-</section>	
+	
 </section>
 
 

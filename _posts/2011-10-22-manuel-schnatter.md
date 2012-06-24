@@ -4,6 +4,7 @@ title: Style Icons with Manuel Schnatter
 categories: work
 video: 3944787
 author: Zach Phillips
+synopsis: A silly character study with stand-up comedian/promoter Dan Frigolette.
 ---
 
 Dan Frigolette and I lived on the same floor freshman year at Syracuse. Since then, he's gone on to be a full-time comedian and promoter.

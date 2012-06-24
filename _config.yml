@@ -1,4 +1,6 @@
-permalink: /:title 
+permalink: /:categories/:title 
 
 auto: true
 pygments: true
+
+categories: [tools, projects, team, work, ideas]

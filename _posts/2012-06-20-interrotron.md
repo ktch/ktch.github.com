@@ -5,6 +5,7 @@ categories: tools
 project: superconnector
 image: interrotron.jpg
 author: Zach Phillips
+synopsis: We built our version of the machine that helps to make the great Errol Morris's talking-head films so engaging.
 ---
 
 Errol Morris is one of my favorite filmmakers. If you've never seen _The Thin Blue Line_ or _The Fog of War_ or _Fast, Cheap, and Out of Control_, you need to. His films are a unique cinematic experience, and it just so happens that the essential medium he uses to communicate, filmed interviews, is what we do all the time. (I would not compare our interviews for corporate videos to Morris's brilliant work. It's just a similar interaction between director, camera, and interviewee.)

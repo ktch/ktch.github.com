@@ -7,12 +7,12 @@ title: the Kitchen
 
 <article class="top">
 	{% if post.video %}
-	<iframe src="http://player.vimeo.com/video/{{ post.video }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	<iframe src="http://player.vimeo.com/video/{{ post.video }}" width="1280" height="720" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 	{% else %}
 	<img class="postimage" src="/images/{{ post.image }}" alt="{{ post.image }}">
 	{% endif %}
 	<a href="{{ post.url }}"><h3 class="league">{{ post.title }}</h3></a>
-	{{ post.content | truncate: 300 }} <a href="{{ post.url }}">read more</a>
+	<p>{{ post.synopsis }}</p> <p><a href="{{ post.url }}">read post</a></p>
 </article>
 
 {% endfor %}
@@ -23,12 +23,12 @@ title: the Kitchen
 
 <article class="grid">
 	{% if post.video %}
-	<iframe src="http://player.vimeo.com/video/{{ post.video }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	<iframe src="http://player.vimeo.com/video/{{ post.video }}" width="1280" height="720" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 	{% else %}
 	<img class="postimage" src="/images/{{ post.image }}" alt="{{ post.image }}">
 	{% endif %}
 	<a href="{{ post.url }}"><h3 class="league">{{ post.title }}</h3></a>
-	{{ post.content | truncate: 250 }} <a href="{{ post.url }}">read more</a>
+	<p>{{ post.synopsis }}</p> <p><a href="{{ post.url }}">read post</a></p>
 </article>
 
 {% endfor %}

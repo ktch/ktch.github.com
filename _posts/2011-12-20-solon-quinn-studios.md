@@ -4,6 +4,7 @@ title: A Paper Leavebehind
 project: solonquinn
 video: 44559938
 author: Zach Phillips
+synopsis: Working with Geoff Matheson, we created a tactile paper object for another film production house.
 ---
 
 I got a call from an old friend back in Syracuse (a filmmaker named [Solon Quinn](http://solonquinnstudios.com). He needed a creative leavebehind for an upcoming trip to New York City.

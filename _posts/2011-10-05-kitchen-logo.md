@@ -4,6 +4,7 @@ title: the Kitchen Logo
 categories: work
 image: kitchenlogo.jpg
 author: Zach Phillips
+synopsis: Creating your company's mark can be extremely nerve-racking. Hire a professional. Brad Wason was our choice.
 ---
 
 If it's true that [design is how it works](http://daringfireball.net/2012/02/walter_isaacson_steve_jobs), then that's the kind of designer I would consider myself. Though I've done quite a bit of visual design in my life, including this site, I've not had much formal training in proper graphic design and typography, so when it came time to create a mark for my new company, I felt I needed to go with [a pro](http://twitter.com/bradwason). Luckily, Brad Wason, at the time heading 23rd&5th, needed a quick video done for a pro-bono client of his, so I was able to barter my work on that video towards the creation of what would become the logo for the Kitchen.

@@ -4,6 +4,7 @@ title: An Interactive Business Card
 project: creativeconsultant
 video: 44582079
 author: Zach Phillips
+synopsis: My grandfather and I teamed up to create my first freelance business card. Though I don't use it anymore, I still love it.
 ---
 
 Before I opened the Kitchen, I was working as a freelance consultant, and so I needed a business card.

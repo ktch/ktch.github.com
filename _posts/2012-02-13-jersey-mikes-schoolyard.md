@@ -3,6 +3,7 @@ layout: post
 title: Throwback Spot
 video: 30210007
 author: Zach Phillips
+synopsis: We made a Jersey Mike's Subs commercial with Scherzi Studios that tried bring us back to the feel-good commercials of our youth.
 ---
 
 Last year, we traveled out to Los Angeles and drove about an hour north of the city to the charming town of Ojai (pronounced "Oh, Hi!") to shoot a television spot for [Jersey Mike's Subs](http://jerseymikes.com).

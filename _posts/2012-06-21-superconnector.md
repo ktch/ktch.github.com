@@ -5,6 +5,7 @@ category: work
 project: superconnector
 video: 43986888
 author: Zach Phillips
+synopsis: Our first video in the Great State of Delaware. Also, our first use of the Interrotron.
 ---
 
 It was fantastic working with the United Way of Delaware on this video, and the immensely talented [Brad Wason](/kitchen-logo) of DMG Marketing, even though we were a bit time-crunched (we put this video together, production and post-production, in less than two weeks).
