@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Throwback Spot
+categories: work
 video: 30210007
 author: Zach Phillips
 synopsis: We made a Jersey Mike's Subs commercial with Scherzi Studios that tried bring us back to the feel-good commercials of our youth.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: An Interactive Business Card
+categories: ideas
 project: creativeconsultant
 video: 44582079
 author: Zach Phillips

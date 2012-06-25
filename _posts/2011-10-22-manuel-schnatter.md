@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Style Icons with Manuel Schnatter
-categories: work
+categories: ideas
 video: 3944787
 author: Zach Phillips
 synopsis: A silly character study with stand-up comedian/promoter Dan Frigolette.

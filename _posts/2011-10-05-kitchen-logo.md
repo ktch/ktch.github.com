@@ -1,7 +1,7 @@
 ---
 layout: post
 title: the Kitchen Logo
-categories: work
+categories: ideas
 image: kitchenlogo.jpg
 author: Zach Phillips
 synopsis: Creating your company's mark can be extremely nerve-racking. Hire a professional. Brad Wason was our choice.

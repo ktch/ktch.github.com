@@ -225,7 +225,7 @@ p.dateline {
 
 footer {
 	width:100%;
-	height:80px;
+	height:30px;
 	background:transparent url('bg5.png');
 	-moz-box-shadow:    0 0 3px #000000;
 	-webkit-box-shadow: 0 0 3px #000000;
@@ -238,15 +238,18 @@ footer {
 	background-image: linear-gradient(top, #dddddd, rgba(0,0,0,0)), url(bg5.png); 
 }
 
-footer h6 {
-	font-size:44px;
-	line-height:44px;
-	margin:0;
-	text-transform:uppercase;
-	padding:20px 20px 20px 35px;
-	background-clip: text;
-	color: transparent;
-	text-shadow: rgba(0,0,0,0.5) 0px 3px 3px;
+h6 {
+	font-weight:100;
+	padding:0;
+	margin-top:7px;
+}
+
+footer h6 a {
+	font-size:15px;
+	margin:0 10px;
+	padding:0 10px;
+	color:#fff;
+	text-shadow: rgba(0,0,0,0.5) 0px 2px 2px;
 }
 
 @media screen and (min-width:481px) {
@@ -382,7 +385,7 @@ footer h6 {
 	
 	.grid {
 		width:45%;
-		height:390px;
+		height:320px;
 		float:left;
 		margin:1% 1% 0 0;
 		background:rgba(255,255,255,.5);
@@ -437,7 +440,19 @@ footer h6 {
 	footer {
 		position:fixed;
 		width:100%;
-		height:80px;
+		height:30px;
 		bottom:0;
+	}
+}
+
+@media screen and (min-width:1000px) {
+	.grid {
+		height:390px;
+	}
+}
+
+@media screen and (min-width:1400px) {
+	.grid {
+		height:450px;
 	}
 }

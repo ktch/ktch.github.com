@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Mobile Poster
+categories: work
 video: 44581357
 author: Zach Phillips
 synopsis: We had to condense an entire commercial real estate portfolio down to a mobile web form factor. Here's what we came up with.

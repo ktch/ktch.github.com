@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Paper Leavebehind
+categories: work
 project: solonquinn
 video: 44559938
 author: Zach Phillips
