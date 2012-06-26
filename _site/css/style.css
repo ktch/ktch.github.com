@@ -196,7 +196,7 @@ section.post h2 {
 	font-family:"museo-sans", sans-serif;
 	font-weight:900;
 	color:#555;
-	font-size:28px;
+	font-size:22px;
 	padding-bottom:0;
 	padding-left:0;
 	padding-top:25px;
@@ -206,7 +206,7 @@ section.post h3 {
 	font-family:"museo-sans", sans-serif;
 	font-weight:700;
 	color:#555;
-	font-size:20px;
+	font-size:18px;
 	padding-bottom:0;
 	padding-left:0;
 	padding-top:25px;
@@ -308,8 +308,8 @@ h6 {
 
 footer h6 a {
 	font-size:15px;
-	margin:0 10px;
-	padding:0 10px;
+	margin:0 15px;
+	padding:0;
 	color:#fff;
 	text-shadow: rgba(0,0,0,0.5) 0px 2px 2px;
 }
