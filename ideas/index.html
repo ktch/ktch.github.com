@@ -2,7 +2,33 @@
 layout: ideas
 ---
 
-{% for post in site.categories.ideas %}
+{% for post in site.categories.ideas | limit: 2 %}
+
+{% if post.video %}
+<iframe src="http://player.vimeo.com/video/{{ post.video }}" height="720" width="1280" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+{% else %}
+<img class="postimage" src="/images/{{ post.image }}" alt="{{ post.image }}">
+{% endif %}
+
+<section class="post">
+
+<h1 class="posttitle league">{{ post.title }}</h1>
+
+<p class="byline">posted by <a href="/{{ post.author | split: ' ' | last | downcase }}">{{ post.author }}</a>
+
+{{ post.content }}
+
+<p class="dateline">Posted {{ post.date | date: "%A, %B %d" }}</p>
+
+</section>
+
+{% endfor %}
+
+<section class="featured">
+	
+	<h1 class="museo">More Posts</h1>
+
+{% for post in site.categories.ideas | offset: 2 %}
 
 <article class="grid">
 	{% if post.video %}
@@ -15,3 +41,9 @@ layout: ideas
 </article>
 
 {% endfor %}
+
+</section>
+
+<section class="more">
+	
+</section>

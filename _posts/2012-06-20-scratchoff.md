@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Scratchoff for the Mobile Web
+title: Introducing Scratchoff.me
 categories: projects
 video: 44545692
 author: Zach Phillips

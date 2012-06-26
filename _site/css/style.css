@@ -179,6 +179,10 @@ a:hover {
 	display:inline;
 }
 
+.featured {
+	clear:both;
+}
+
 section.post {
 	margin:0 15px;
 }
@@ -186,6 +190,30 @@ section.post {
 section.post p {
 	line-height:23px;
 	margin:0 10px 15px 0;
+}
+
+section.post h2 {
+	font-family:"museo-sans", sans-serif;
+	font-weight:900;
+	color:#555;
+	font-size:28px;
+	padding-bottom:0;
+	padding-left:0;
+	padding-top:25px;
+}
+
+section.post h3 {
+	font-family:"museo-sans", sans-serif;
+	font-weight:700;
+	color:#555;
+	font-size:20px;
+	padding-bottom:0;
+	padding-left:0;
+	padding-top:25px;
+}
+
+section.post ul li {
+	color:#555;
 }
 
 section.more {
@@ -196,6 +224,40 @@ section.more {
 section.more h3 {
 	font-size:20px;
 	margin:5px 0px 2px 15px;
+}
+
+.gear {
+	width:100%;
+}
+
+.gear h2 {
+	font-weight:500;
+	margin-top:0px;
+	padding-bottom:0px;
+}
+
+.gear ul {
+	list-style:none;
+	padding-left:15px;
+	padding-bottom:25px;
+}
+
+#team h2 {
+	font-size:33px;
+	font-weight:500;
+	color:#b53f32;
+	margin-top:50px;
+	padding-bottom:0px;
+}
+
+#team ul {
+	list-style:none;
+	padding-left:15px;
+	padding-bottom:25px;
+}
+
+#team ul li {
+	color:#555;
 }
 
 h1.posttitle {
@@ -435,6 +497,20 @@ footer h6 a {
 		font-weight:100;
 		font-size:13px;
 		margin:0;
+	}
+	
+	.gear {
+		float:left;
+		width:45%;
+	}
+	
+	.gear ul {
+		list-style:none;
+		padding-left:5px;
+	}
+	
+	#team ul {
+		padding-left:5px;
 	}
 	
 	footer {
