@@ -26,6 +26,17 @@ nav div {
 	margin-bottom:15px;
 }
 
+nav address {
+    position: absolute;
+    font-size: .7em;
+    display: inline-block;
+    line-height: 15px;
+    font-family: "museo-sans";
+    margin-top: 20px;
+    padding-top: 20px;
+    bottom:55px;
+}
+
 img#ktchlogo {
 	padding-left:15px;
 	width:120px;

@@ -14,6 +14,74 @@
 		
 		
 		<item>
+			<title>Hamster Spot</title>
+			<link>/work/hamster-spot</link>
+			<guid>/work/hamster-spot</guid>
+			<pubDate>2013-01-30 00:00:00 -0500</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				<p><a href='http://uwde.org/'>United Way of Delaware</a> bought a hamster costume from Peru, and it arrived in a burlap sack. Then they called us.</p>
+
+<p>We were a little wary of this project at first, as I tried to explain that we wouldn&#8217;t be able to make a costume behave anything like a 3D-animated character. So when it came time to write this spot, I wanted to make sure that we drew a clear line of distinction between this character and the famous ones that everyone (apparently, other than me) knows.</p>
+
+<p>The shoot turned out to be an incredibly enjoyable experience, and we&#8217;re very happy with the final result.</p>
+
+<p>We got a lot of help with this spot, and we need to thank them. For one, <a href='http://www.dartfirststate.com/'>DART</a> could not have been any more helpful. We weren&#8217;t sure we were going to be able to pull off our bus scenes, and even thought about shooting them guerilla-style, just board one of the Market Street Trolleys and hope no one yelled at us. We were foolish to worry. Not only was DART glad to help, but they gave us a bus and a driver for the whole morning, and on extremely short notice.</p>
+
+<p><a href='http://parselsinc.com'>Parcels</a> provided the confetti, which was just the leftovers from the hole punching machine. Worked perfectly. If you need any of that, they&#8217;ve got garbage bags full of the stuff.</p>
+
+<p>Steve Gold was a real trooper playing the hamster character, which we named Hamilton, and after putting on the costume for less than an hour one day, I have a renewed respect for what mascots must be going through.</p>
+
+<p><a href='http://www.myspace.com/whirledblues'>Nate Farrar</a>, <a href='http://tomspiker.virb.com/'>Tom Spiker</a>, and <a href='http://www.myspace.com/calvinweston'>Calvin Weston</a> recorded the music for us and that amazing voice you hear belongs to <a href='http://www.voices.com/people/dmill'>David Milligan</a> of Philadelphia.</p>
+
+<p>Also, a big shout-out to our favorite member of the Wilmington Police Department, Mike Wilkerson.</p>
+
+<p>Now <a href='http://uwde.org/'>go make a donation already</a>.</p>
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>Angelo's Luncheonette</title>
+			<link>/work/angelos-luncheonette</link>
+			<guid>/work/angelos-luncheonette</guid>
+			<pubDate>2012-11-02 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				<p>Angelo&#8217;s Luncheonette is a little place on the corner in the 40 Acres (near Trolley Square). Muzzi, the owner, has worked here for 45 years. When you walk into the place, it feels like you&#8217;ve gone back in time.</p>
+
+<p>We decided to shoot a little video to try and capture the essence of the place. It was a great time.</p>
+
+<p>This is one of the friendliest places you&#8217;ll ever walk into.</p>
+			</content:encoded>
+		</item>
+		
+		<item>
+			<title>10 Lessons from DCAD Students</title>
+			<link>/work/dcad-lessons</link>
+			<guid>/work/dcad-lessons</guid>
+			<pubDate>2012-07-10 00:00:00 -0400</pubDate>
+			<author>thekitchen.co</author>
+			<description>
+				
+			</description>
+			<content:encoded>
+				<p>This video came up about a week and a half before <a href='http://dcad.edu'>DCAD</a> students would be leaving for the summer, so we needed a concept we could execute production on very quickly.</p>
+
+<p>The question we asked each of the ten students we interviewed is: &#8220;What can you teach a potential incoming DCAD student in a minute or less?&#8221; After pre-screening a bunch of students, we found ourselves left with ten ideas we thought were pretty great, and we went about shooting them the following day.</p>
+
+<p>This was our first shoot with the <a href='http://sounddevices.com/products/702/'>Sound Devices 702</a> recorder, which we used in concert with our <a href='http://www.sounddevices.com/products/302/'>Sound Devices 302</a>. If you have the means, I really recommend it.</p>
+
+<p>Sorry for that, but they&#8217;re just (OH MY GOD) so nice.</p>
+			</content:encoded>
+		</item>
+		
+		<item>
 			<title>United Way SuperConnector</title>
 			<link>/work/superconnector</link>
 			<guid>/work/superconnector</guid>
@@ -28,32 +96,6 @@
 <p>We hit some new milestones with this video, including a full move to Final Cut X, which I will do a post about later. I&#8217;ve concluded that, though flawed, FCPX is pretty great software, and the things that make me crazy about it (hello &#8220;Share&#8221; menu&#8230;) are outweighed by great new features, some of which (sigh) did indeed come from iMovie.</p>
 
 <p>This was also our first time using our makeshift <a href='/tools/interrotron'>Interrotron</a>, which I think had a tremendous impact on the performance of the interviewees, and adds a lot to the emotional impact of the piece.</p>
-			</content:encoded>
-		</item>
-		
-		<item>
-			<title>Introducing Scratchoff.me</title>
-			<link>/projects/scratchoff</link>
-			<guid>/projects/scratchoff</guid>
-			<pubDate>2012-06-20 00:00:00 -0400</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>While working on <a href='/work/bp-hawks'>the mobile sweepstakes promotion for the Atlanta Hawks and British Petroleum</a>, it became evident pretty quickly that this could be a good fit for a lot of companies, so we built a subdomain-based Rails app.</p>
-
-<p>The first thing we had to do was find a way to leverage touch and the HTML5 canvas for creating the scratchoff (or more accurately, wipe-away or eraser) capability. It would need to function well on both iOS and Android, the two leaders in the handset market. The rest of the players are pretty hit or miss in terms of web standards support, but luckily, their marketshare is also pretty pitiful, and so we felt safe to ignore them. It&#8217;s worth noting that there&#8217;s a ton of fragmentation within Android itself, and so we couldn&#8217;t guarantee blanket support across the hundreds of devices in that category, but our testing showed support on every device we tried, some of them as old as three years, and the vast majority running 2.3.</p>
-
-<p>Our savior was a frenchman (or Belgian?) who goes by the handle of <a href='http://twitter.com/boblemarin'>@boblemarin</a>. He had created a jQuery plugin called <a href='http://minimal.be/lab/jQuery.eraser/'>jQuery.eraser</a>, which takes any image pass in and turns it into an HTML5 canvas element erasable by both cursor and (most importantly for us) touch.</p>
-
-<p>We only had to make a few tweaks to the code, allowing it to use images optimized for Retina displays, and the result was really fun. I found myself playing it over and over simply because it was fun to scratch off the image. It really feels like a native app running in the iPhone&#8217;s browser.</p>
-
-<p>The rest of the process entailed figuring out how to return a <em>weighted</em> random result (weighted by the odds of winning each prize) and using cookies and some server-side code to prevent abuse.</p>
-
-<p><a href='http://mobilezen.com'>mobilezen</a> (my first client after going independent three years ago) offered to go into a partnership where they would handle the sales, billing, and support, so the Kitchen could focus only on making the game as awesome as it could be.</p>
-
-<p>It&#8217;s been sold several times since then, but we&#8217;re still looking for a big client who wants to take their mobile game to the next level. You see sweepstakes games on virtually every soda bottle and fast food cup in the world, but they&#8217;re usually terrible experiences where you have to go to some website and type in a 419 digit alphanumeric code to find out whether you&#8217;ve won a <em>chance</em> to win a backpack or something like that. The immediacy and touchability of <a href='http://scratchoff.me'>Scratchoff.me</a> is a greatly superior experience and really gives customers something fun to do and a tremendously positive brand impression.</p>
 			</content:encoded>
 		</item>
 		
@@ -82,122 +124,6 @@
 <p>So next time we do one of these, I&#8217;ll have an excuse to buy some new stuff! (and we get to build something)</p>
 
 <p>After seeing the results, especially with the little boy Donald, who certainly could never talk directly into a camera with that kind of real, natural performance, I never want to do interviews the old way again.</p>
-			</content:encoded>
-		</item>
-		
-		<item>
-			<title>The Challenge Program</title>
-			<link>/work/challenge-program</link>
-			<guid>/work/challenge-program</guid>
-			<pubDate>2012-06-19 00:00:00 -0400</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>When I first got to Delaware, I balked for a long time at looking for Delaware clientele. I still had some clients in Atlanta and Syracuse, and the idea of starting over felt pretty daunting. But after a little while, it became evident that I should suck it up and go meet some people. I&#8217;m going to be here for a while (my fiancé is an attorney specializing in corporate bankruptcy). So I decided I&#8217;d do something I&#8217;d sworn off a dozen times before: <strong>pro-bono work</strong>.</p>
-
-<p>I&#8217;ve been burned a number of times doing free work, and so this time I thought I&#8217;d go about it a little differently. <em>I went and sought out the work myself</em>. This way, I could do the work on my own terms, make something I could be proud of, and never feel put-upon (not saying anyone doing pro-bono work ever feels put-upon&#8230;).</p>
-
-<p>If I&#8217;m the one offering, and no one asked me to do it, then there&#8217;s little room for the messiness that sometimes happens, and if it still does, at least I only have myself to blame.</p>
-
-<p>Well, I couldn&#8217;t have picked a better non-profit to volunteer with. <a href='http://challengeprogram.com'>The Challenge Program</a> is awesome, and I&#8217;ve made great friends there. <a href='http://houseind.com'>House Industries</a>, the legendary type foundry, is also friend of the program, and I started with a nice layout (and a web-license for Neutraface&#8230;!) from them.</p>
-
-<p>At the time I did the site, <a href='http://ethanmarcotte.com'>Ethan Marcotte</a> had recently come out with <a href='http://responsivewebdesign.com'><em>Responsive Web Design</em></a> and the Twitters were all a-twitter (sorry). So I decided to make <a href='http://challengeprogram.org'>http://challengeprogram.org</a> my first responsive site.</p>
-
-<p>I started building in Textpattern because House had already started setting up the site with it and I saw that <a href='http://hicksdesign.co.uk'>Jon Hicks</a> was a big fan. Hicks is an unbelievable designer, one of my heroes, but I&#8217;ve since learned to take any tool recommendations of his with a grain of salt. He has an Android phone, for one&#8230; by choice.</p>
-
-<p>So Textpattern turned out to be a pretty big struggle to work with, especially since I already had done so much work with the much more powerful and plugin-rich ExpressionEngine. So I switched to EE and went about figuring out CSS3 media queries and fluid layouts. If you aren&#8217;t familar with responsive web design, open up the <a href='http://challengeprogram.org'>Challenge Program site</a> and make your browser window as narrow as you can. You&#8217;ll see the styling change as the viewport width changes. This makes the site pleasant to visit from all devices.</p>
-
-<p>I now design almost every site I do responsively. I think that responsive needs to be the default position for all web design, and a designer needs to have a <em>very</em> good reason <em>not</em> to be responsive. About half of all web browsing now takes place on mobile devices, and that&#8217;s rising rapidly. I can&#8217;t believe major sites like the New York Times and others still have no consideration for the small screens of the world. It&#8217;s a complete dereliction and hostile to users.</p>
-
-<p>More on responsive web design later&#8230;</p>
-
-<p>I think this might be my favorite site I&#8217;ve done to date. It&#8217;s clean and white, Neutraface, responsive. It&#8217;s something I&#8217;m really proud of, and definitely the best pro-bono experience I&#8217;ve ever had.</p>
-
-<p>So if you are having trouble looking for work and need a project, find the coolest non-profit in your town, call them up and tell them you have some skills that might help them.</p>
-			</content:encoded>
-		</item>
-		
-		<item>
-			<title>A Mobile Poster</title>
-			<link>/work/jll-skyline</link>
-			<guid>/work/jll-skyline</guid>
-			<pubDate>2012-06-18 00:00:00 -0400</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>Jones Lang LaSalle&#8217;s Atlanta branch needed a mobile way to browse their commercial real estate portfolio.</p>
-
-<p>What they had was a huge poster-sized InDesign document. Our job was to figure out how to get that whole poster (with more than fifty buildings and availability and agent contact information for each) into a mobile-optimized view, easy to quickly browse.</p>
-
-<p>My first choice would have been to use Raphael.js to draw the buildings with Scalable Vector Graphics or Paper.js to accomplish it in an HTML5 canvas, but that kind of fanciness wasn&#8217;t in the budget.</p>
-
-<p>The answer was <a href='http://cubiq.org/swipeview'>SwipeView by Matteo Spinelli at cubiq.org</a>. Spinelli is a bad-ass master of mobile javascript, and SwipeView was exactly what I needed. It&#8217;s basically a seamlessly loopable carousel for the mobile web, optimized for touch and hardware-acceleration, making the swipe action silky smooth in Mobile Safari. Every bit as smooth as a native app. It also only loads the next and previous item to the currently viewed item, so it&#8217;s great on memory and bandwidth as well.</p>
-
-<p>I think the solution worked out really well, and it&#8217;s already built into the skeleton of a Rails app, so if another client has a larger-scale use for this kind of browsing, we&#8217;ll be ready to build the rest of that out. I think it&#8217;s a really great way to look through products, browse directories, etc. on mobile.</p>
-
-<p>I&#8217;d built in a custom search field using <a href='https://github.com/harvesthq/chosen/'>jQuery.chosen</a>, but the native iPhone drop-down ended up performing a lot better and didn&#8217;t have all of the independently scrolling div problems you have with mobile (<a href='http://cubiq.org/iscroll-4'>which Spinelli has also addressed</a>, though his solution was too hacky an alternative for my needs).</p>
-			</content:encoded>
-		</item>
-		
-		<item>
-			<title>An Interactive Business Card</title>
-			<link>/ideas/zach-phillips-business-card</link>
-			<guid>/ideas/zach-phillips-business-card</guid>
-			<pubDate>2012-06-11 00:00:00 -0400</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>Before I opened the Kitchen, I was working as a freelance consultant, and so I needed a business card.</p>
-
-<p>I&#8217;m sure no one else has ever done this, but I would spend dozens of hours looking through coolest-business-card-ever websites and Flickr albums, fawning over the creativity of a divorce lawyer&#8217;s card with a clever perforation down the middle or a $10 card made of stainless steel.</p>
-
-<p>My perfectionism has led me to create no fewer than ten different business cards, none of which were ever printed. So one day when I was driving to Syracuse from Atlanta (by way of Cincinnati), I declared that by the end of that day, I would have a concept for a business card, and by the end of the following day, the card would be off to the printers.</p>
-
-<p>The reason I had picked this day is because I would be with my grandfather <a href='http://zach.be/2011/10/truman-toland-1922-2011/'>Truman Toland</a>, the most skilled artist I&#8217;ve ever known, for a nine-hour drive.</p>
-
-<p>So we brainstormed. I said I wanted it to be different. Not just a pretty card, but a card that <em>did</em> something. At the very least, a card that would be memorable, that someone would stop to look at or interact with for a moment.</p>
-
-<p>I also did not want to pigeonhole myself into any particular medium. My main background was in film, but I&#8217;d done a lot of photography and by that time I was pretty deep into ExpressionEngine development. The jack-of-all-trades label of course comes with a negative addendum, but I just wasn&#8217;t yet willing to say &#8220;This thing is what I will do forever.&#8221; <a href='/medium-independence'>I&#8217;m still not</a>.</p>
-
-<p>Oh yeah, and I wanted some glossy rounded squares on it, because rounded squares are all the rage, you know?</p>
-
-<p>So the title I came up with for myself (with the help of Steven Berman, a friend in Atlanta) was Creative Consultant. This title, in theory, would leave me open to all kinds of work.</p>
-
-<p>The message of the card would be that I could offer simple creative solutions to problems, so Grandpa Truman remembered an animation he had created on his Amiga back in the 80&#8217;s, with a character who had (literally) painted himself into a corner. He had animated several versions of this concept where the character finds a way out. We figured we could create a three-panel comic out of one of these concepts, and we could put that comic in my glossy rounded squares.</p>
-
-<p>Then, to add an interactive element, we would have a sticker over the usual contact info, with a message to peel back the sticker for &#8220;simple, creative solutions.&#8221;</p>
-
-<p>With spot-gloss, rounded corners, and the stickers, the whole thing cost less than $100 (for five hundred cards and stickers). Got them printed at <a href='http://overnightprints.com'>OvernightPrints.com</a>. The stickers I got from some guy in Colorado. The spot-gloss didn&#8217;t come out perfectly on every card, but man was it cheap and they really look great.</p>
-
-<p>Now that there&#8217;s the Kitchen, I don&#8217;t use this card anymore, but I&#8217;m still pretty proud of it.</p>
-
-<p>He didn&#8217;t know Adobe Illustrator very well, but my grandpa sat for a few hours, patiently translating his sketch for me with the pen tool, and since he died last fall, this card will always serve as a nice reminder of him.</p>
-			</content:encoded>
-		</item>
-		
-		<item>
-			<title>Atlanta Hawks and BP Sweepstakes</title>
-			<link>/work/bp-hawks</link>
-			<guid>/work/bp-hawks</guid>
-			<pubDate>2012-04-17 00:00:00 -0400</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>The Atlanta Hawks and BP came to us via <a href='http://mobilezen.com'>mobilezen</a> and wanted to do a mobile sweepstakes at a few games during the 2011-2012 season.</p>
-
-<p>They would have been satisfied with something as simple as a Wufoo implementation or an email or SMS auto-response, but I had an idea I thought would be perfect for this, and would make the interaction infinitely more fun for the customers: a scratchoff game!</p>
-
-<p>Afterwards, <a href='/projects/scratchoff'>we built the game into a fully-functioning Rails app</a>. You can create your own promotion, create your look, your prizes, set the odds and inventory numbers, choose a sub-domain and you&#8217;re rolling.</p>
-
-<p><a href='http://scratchoff.me'>Scratchoff.me</a> is released in partnership with mobilezen, who is handling sales, billing, and support, while the Kitchen gets to focus only on making the product as delightful as possible.</p>
 			</content:encoded>
 		</item>
 		
@@ -244,164 +170,6 @@
 		</item>
 		
 		<item>
-			<title>Video Chatting and Eye Contact</title>
-			<link>/ideas/eyeline</link>
-			<guid>/ideas/eyeline</guid>
-			<pubDate>2012-01-15 00:00:00 -0500</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>Ever since the first science fiction novels were written, there has been a common dream of face-to-face communication between agents who are not in the same place. A person far away, but virtually present, is something that still seems the stuff of imagination.</p>
-
-<p>When in fact, it isn&#8217;t.</p>
-
-<p>Video chatting has now been around and cheaply available for more than a decade, and these days we can video chat from our mobile devices, on the road if we want to. Yet for some reason, the true feeling of person-to-person contact still hasn&#8217;t been captured, and video chat is not widely used for anything more than its novelty. Granted, there are some hardcore users, but for the most part, it still hasn&#8217;t &#8220;hit.&#8221;</p>
-
-<p>This is a really peculiar thing, when you think about it. I have the ability to video chat with people I don&#8217;t get to see much anymore, if ever. I am capable of having virtualized contact with family and loved ones thousands of miles away, yet I almost never do it. And when I do, it&#8217;s usually to show off as a parlor trick.</p>
-
-<p>If video chatting were better than a standard voice call, common logic would indicate that video chatting should be widely in use, because it is widely available.</p>
-
-<p>So what this means is one of two things:</p>
-
-<p><strong>Either every childlike dream of this technology simply possessed a lack of foresight that video chatting would actually not present a beneficial experience over the telephone, which is more than a century old…</strong></p>
-
-<p>or…</p>
-
-<p><strong>The current iteration of this technology isn&#8217;t better than voice alone.</strong></p>
-
-<p>I reject the former mostly out of intuition, but also for the reason that even if it were true that the visual doesn&#8217;t add much, the fact would still remain that the audio on video chat is actually better than it is on our current most common communication device, the digital phone, which we opt for 10,000 to 1 over video chatting.</p>
-
-<p>But the latter poses another question: Why doesn&#8217;t the current way we are able to video chat inspire anything more than a &#8220;wow&#8221;? Why doesn&#8217;t it become &#8220;This is something we can do now when we want to have better communication.&#8221;?</p>
-
-<p>In my opinion, the reason for this is that our current system leaves out the most important aspect of communication, which is eye contact. Even animals understand this. If you walk into a room, surprising a dog or cat who is doing something they are not supposed to be doing, the animal will not look at your feet, which have the power to move quickly and injure them. They don&#8217;t look at your torso, where the major mass of your body is represented. They look you right in the eyes. The eyes tell them more than anything else, about your feelings, intentions, and what your sudden presence really means to them.</p>
-
-<p>Anyone who has attempted a video chat realizes this immediate problem. &#8220;I cannot talk to this person because they are not looking at me. We are not really communicating.&#8221; This may be realized at a sub-conscious level, as just something &#8220;missing,&#8221; but it is always there. Hence the lack of widespread use of this Star Trek/Jetsons dream-become-reality. If you look at the camera, you cannot see your partner. If you look at your partner, your eyes appear to be focused elsewhere on her end. There is nothing currently out there to account for this, and my hypothesis is that this is the problem that needs solving.</p>
-
-<h2 id='solution_1__hardwaresoftware'>Solution 1 - Hardware/Software</h2>
-
-<p>Optical technology is extremely inexpensive in today&#8217;s world, hence there are cameras added to almost every device, with little added cost. So why not add three more?</p>
-
-<p>Place cameras at four axes, and your video software interpolates them to create a single image with your eyes focused straight forward.</p>
-
-<h3 id='advantages'>Advantages</h3>
-
-<ul>
-<li>Traditionally Patentable (also a disadvantage)</li>
-
-<li>Proprietary</li>
-
-<li>Creates a sellable, physical product, to go with a virtual one.</li>
-</ul>
-
-<h3 id='disadvantages'>Disadvantages</h3>
-
-<ul>
-<li>Costly to develop</li>
-
-<li>Competition from the big boys</li>
-
-<li>Not multi-platform out of the box</li>
-
-<li>Reliant upon mass-adoption</li>
-
-<li>Consumer electronics markets are terribly hard</li>
-</ul>
-
-<p>I hate this solution if I&#8217;m not Apple.</p>
-
-<h2 id='solution_2__hardware'>Solution 2 - Hardware</h2>
-
-<p>Put a camera inside the screen looking out, without affecting the display performance.</p>
-
-<h3 id='advantagesdisadvantages'>Advantages/Disadvantages</h3>
-
-<ul>
-<li>Same as the previous solution, with the added problem that it may be impossible with current technology</li>
-</ul>
-
-<p>I hate this if I&#8217;m not a major manufacturer in China.</p>
-
-<h2 id='solution_3__software'>Solution 3 - Software</h2>
-
-<p>Software that recognizes eyes, and artificially corrects the eyeline, shifting just a few pixels.</p>
-
-<p>Advantages</p>
-
-<ul>
-<li>Could be developed by a small developer</li>
-
-<li>Can be improved and maintained by a small core team</li>
-
-<li>Patentable, if you like that sort of thing</li>
-
-<li>Cross-platform</li>
-
-<li>Licensable to licensees large, small, and fucking gigantic</li>
-
-<li>Can become the center of a software service</li>
-</ul>
-
-<p>If you can&#8217;t tell, I like this one.</p>
-
-<h2 id='monetization'>Monetization</h2>
-
-<p>License it to device makers and OS developers.</p>
-
-<p>License it to individuals as a system plug-in.</p>
-
-<p>Create an online video chatting service with eye contact. Complete with apps, advertisements (if you&#8217;re into that sort of thing), and enterprise-level services.</p>
-
-<p>Of course, it has to be mentioned: Sell it to Skype or someone.</p>
-
-<h2 id='anyways'>Anyways</h2>
-
-<p>I would like to work on a pitch for this, but I don&#8217;t have the beginnings of the know-how to implement something like this. For a developer, the coolest part of it (I think) is that it gives you one, concrete, simple (but not easy) problem to solve.</p>
-
-<p>And I bet it changes the game.</p>
-
-<p>People may not even realize why video chatting didn&#8217;t catch on &#8220;until now,&#8221; but some will see what is obvious but not so obvious: That the majority of the pleasure we get from talking to other humans is the visual feedback we get from our words to their faces, our eyes to their eyes.</p>
-
-<p>We could call it Eyeline. Or iLine, if you&#8217;re into that.</p>
-
-<p>It&#8217;s outside-the-box, I know. But it might be just the thing.</p>
-
-<p>Anyone want to work on this? We&#8217;ll help. Or you can just take it and run with it.</p>
-			</content:encoded>
-		</item>
-		
-		<item>
-			<title>A Paper Leavebehind</title>
-			<link>/work/solon-quinn-studios</link>
-			<guid>/work/solon-quinn-studios</guid>
-			<pubDate>2011-12-20 00:00:00 -0500</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>I got a call from an old friend back in Syracuse (a filmmaker named <a href='http://solonquinnstudios.com'>Solon Quinn</a>. He needed a creative leavebehind for an upcoming trip to New York City.</p>
-
-<p>He, along with Benjamin Schechter (a very close friend of mine working as a producer with Solon&#8217;s company), would be touring the ad agencies, trying to find some higher profile (and higher paying) work than they were getting in Syracuse.</p>
-
-<p>Originally, it was going to be a simple copywriting job, and after having our recorded conference call using <a href='http://campfirenow.com'>Campfire</a>, the message that came to light was &#8220;We are a small production house, and this is advantageous, because we are more nimble, more passionate, and with fewer account executives and less bureaucracy. We also make <a href='https://vimeo.com/28311976'>great stuff</a> and we have the tools to compete with any production values offered by the big guys you currently work with.&#8221;</p>
-
-<p>We were on a very tight budget and an even tighter schedule, and the answer to this problem didn&#8217;t come very easily. And again&#8230; the budget.</p>
-
-<p>So I was hanging out with <a href='http://geoffmatheson.com'>Geoff Matheson</a>, get-your-hands-dirty-design extraordinaire, and he kept talking about how &#8220;sometimes you need to just sit down and start folding paper.&#8221;</p>
-
-<p>This is when the idea came. How small could we fold a large piece of newsprint down to?</p>
-
-<p>From there it was some slick typography by <a href='http://kellysullan.com'>Kelly Sullan</a>, a big pad of newsprint, some custom X-acto cut stencils, 20 some-odd cans of spraypaint, and Geoff Matheson working his ass off for far too little money. But the result was awesome.</p>
-
-<p>Included with the little package was a custom disk image burned to a seriously cool metal thumbdrive stamped with the company&#8217;s logo in white. Same drive you get with a <a href='/smallhd'>smallHD monitor</a>. The drive had examples of the studio&#8217;s work and a .webloc aiming at a fullpage javascript slideshow leading to their site. This way, not only could we track analytics on people who got the drives, but we could also update and change what they would see whenever we wanted. Also, PDF&#8217;s are never fun to open, and almost always look bad without user manipulation (zooming, etc.). PDF is an incredibly useful format, but not for promotion.</p>
-
-<p><strong>A quick note for others attempting the custom .dmg:</strong> At the time we did this, it was not possible to have the disk automatically pop open when inserted into the USB port. This is a security feature of Mac OS X and (we assume) other operating systems. So although we were able to get the custom installer-style folder to work (using <a href='https://store.araelium.com/home/'>DMG Canvas</a>&#8230; not a great app but it works and it&#8217;s cheap), we couldn&#8217;t get the <em>exact</em> interaction we wanted.</p>
-			</content:encoded>
-		</item>
-		
-		<item>
 			<title>Mitchell Associates Commercial</title>
 			<link>/work/mitchell</link>
 			<guid>/work/mitchell</guid>
@@ -422,22 +190,6 @@
 <p>The music was composed and produced in a pinch by the ever-so-talented <a href='http://eluttinger.com'>Elizabeth Luttinger</a> out in Los Angeles.</p>
 
 <p>Also, we won. Not a big deal.</p>
-			</content:encoded>
-		</item>
-		
-		<item>
-			<title>First Job</title>
-			<link>/work/mobilezen</link>
-			<guid>/work/mobilezen</guid>
-			<pubDate>2011-10-24 00:00:00 -0400</pubDate>
-			<author>thekitchen.co</author>
-			<description>
-				
-			</description>
-			<content:encoded>
-				<p>The first video I made as an independent freelancer was a product video for <a href='http://mobilezen.com'>mobilezen</a> made completely in Adobe After Effects.</p>
-
-<p>I still really like the concept of showing the characters as mobile handsets.</p>
 			</content:encoded>
 		</item>
 		
