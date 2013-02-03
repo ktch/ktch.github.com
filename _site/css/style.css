@@ -606,3 +606,9 @@ footer h6 a {
 		height:480px;
 	}
 }
+
+@media screen and (min-width:1600px) {
+	.grid {
+		height:520px;
+	}
+}
