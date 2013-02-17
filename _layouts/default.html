@@ -15,13 +15,39 @@
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/plugins.css">
+  <link rel="stylesheet" href="/css/invite.css">
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
   <script src="/js/modernizr-2.5.3.min.js"></script>
 	<script type="text/javascript" src="http://use.typekit.com/sca6isw.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link href="//cloud.webtype.com/css/6e73715c-096b-45fb-b313-901f8c344364.css" rel="stylesheet" type="text/css" />
 
 </head>
 
 <body>
+  
+  <script type="text/javascript">
+    $(function(){
+        $('#invite').modal('show');
+    });
+</script>
+
+<div class="modal hide fade" id="invite">
+
+  <h1 class="grandopening neutrabold">Grand</h1>
+  <h1 class="grandopeningtwo neutrabold">Opening!</h1>
+
+  <h4 class="date neutrabook">Friday March 1, 2013 | 5PM to 9PM</h4>
+    
+  <p class="invitation neutrabook">You are cordially invited to join us for delicious food, wine, and popcorn as we celebrate the opening of our new film and video production house at 227 North Market Street.</p>
+  
+  <section id="invitelogo"><img src="kitchenlogo.png" alt="the Kitchen Logo" class="invitelogo">
+  <h6 class="tagline neutrabold">Short Films Made to Order</h6>
+  <p class="address neutrabook">227 N. Market Street | Wilmington, DE 19801</p>
+  </section>
+              
+</div>
 	
 {% include nav.html %}
 

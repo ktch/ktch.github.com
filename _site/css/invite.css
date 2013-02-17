@@ -1,0 +1,94 @@
+.neutrabold {
+  font-family: "Neutraface2Text TT";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.neutrabolditalic {
+  font-family: "Neutraface2Text TT";
+  font-style: italic;
+  font-weight: bold;
+}
+
+.neutrabook {
+  font-family: "Neutraface2Text TT";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.neutrabookitalic {
+  font-family: "Neutraface2Text TT";
+  font-style: italic;
+  font-weight: normal;
+}
+
+#invite {
+	position: absolute;
+	left: 300px;
+	top:20px;
+	text-align: center;
+	padding: 20px;
+	background: #ddd;
+	width: 350px;
+}
+
+h1.grandopening {
+	text-shadow:none;
+	text-transform: uppercase;
+	font-size: 103px;
+	color: #B53F32;
+	padding-top: 20px;
+	padding-bottom: 0;
+	margin-bottom: -100px;
+	margin-top: 0px;
+	margin-left: -5px;
+	border-top: 2px solid white;
+	-webkit-margin-after:0;
+}
+
+h1.grandopeningtwo {
+	text-shadow:none;
+	text-transform: uppercase;
+	font-size: 74px;
+	margin-left: -5px;
+	margin-top: -30px;
+	color: #B53F32;
+	margin-bottom: -20px;
+}
+
+h4.date {
+	font-size: 24px;
+	padding-top: 20px;
+	border-top: 2px solid white;
+}
+
+p.invitation {
+	text-align: left;
+	padding: 3px;
+	padding-top: 20px;
+	border-top: 2px solid white;
+}
+
+section#invitelogo {
+	padding-top: 20px;
+	border-top: 2px solid white;
+}
+
+img.invitelogo {
+	width:100px;
+}
+
+h6.tagline {
+	font-size: 24px;
+	color: #B53F32;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width:320px) {
+
+	#invite {
+		zoom:75%;
+	}
+
+}
