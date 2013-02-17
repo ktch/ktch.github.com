@@ -37,7 +37,7 @@ h1.grandopening {
 	text-transform: uppercase;
 	font-size: 103px;
 	color: #B53F32;
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 0;
 	margin-bottom: -100px;
 	margin-top: 0px;
@@ -52,6 +52,7 @@ h1.grandopeningtwo {
 	font-size: 74px;
 	margin-left: -10px;
 	margin-top: -30px;
+	padding-bottom: 0px;
 	color: #B53F32;
 	margin-bottom: -20px;
 }
@@ -59,6 +60,7 @@ h1.grandopeningtwo {
 h4.date {
 	font-size: 24px;
 	padding-top: 20px;
+	margin-bottom: 0px;
 	border-top: 2px solid white;
 }
 
@@ -96,11 +98,7 @@ h6.tagline {
 		text-transform: uppercase;
 		font-size: 103px;
 		color: #B53F32;
-		padding-top: 20px;
-		padding-bottom: 0;
-		margin-bottom: -100px;
-		margin-top: 0px;
-		margin-left: -8px;
+		margin-left: -5px;
 		padding-left: 0;
 		border-top: 2px solid white;
 		-webkit-margin-after:0;
@@ -110,11 +108,9 @@ h6.tagline {
 		text-shadow:none;
 		text-transform: uppercase;
 		font-size: 74px;
-		margin-left: -5px;
+		margin-left: -2px;
 		padding-left: 0;
-		margin-top: -30px;
 		color: #B53F32;
-		margin-bottom: -20px;
 	}
 
 	p.invitation {
