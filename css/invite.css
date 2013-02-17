@@ -91,4 +91,38 @@ h6.tagline {
 		zoom:75%;
 	}
 
+	h1.grandopening {
+		text-shadow:none;
+		text-transform: uppercase;
+		font-size: 103px;
+		color: #B53F32;
+		padding-top: 20px;
+		padding-bottom: 0;
+		margin-bottom: -100px;
+		margin-top: 0px;
+		margin-left: -8px;
+		padding-left: 0;
+		border-top: 2px solid white;
+		-webkit-margin-after:0;
+	}
+
+	h1.grandopeningtwo {
+		text-shadow:none;
+		text-transform: uppercase;
+		font-size: 74px;
+		margin-left: -5px;
+		padding-left: 0;
+		margin-top: -30px;
+		color: #B53F32;
+		margin-bottom: -20px;
+	}
+
+	p.invitation {
+		font-size: 1.3em;
+		text-align: left;
+		padding: 3px;
+		padding-top: 20px;
+		border-top: 2px solid white;
+	}
+
 }
