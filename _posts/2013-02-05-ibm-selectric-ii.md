@@ -18,4 +18,4 @@ A distinctive aspect of the Selectric is the _ka-chunk_, the very loud and robot
 
 We haven't done many product films yet, and it's something we'd like to get more into, and so this was an exercise for us and a demonstration for potential clients.
 
-Hope this is as fun for you to watch as it was foror us to make.
+Hope this is as fun for you to watch as it was for us to make.
