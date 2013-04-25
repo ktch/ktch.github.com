@@ -4,7 +4,7 @@ title: Wilmington Renaissance Corporation
 categories: work
 video: 64114104
 author: Zach Phillips
-synopsis: A motion-graphics piece about our fair city's revitalization
+synopsis: A motion-graphics piece we did in concert with ab+c creative intelligence about an organization working hard, and succeeding, to revitalize our fair city
 ---
 
 We were contacted by the good people over at [Wilmington Renaissance Corporation](http://bigideaswilmington.com) about doing a piece for their annual meeting. Something to run on the screen to open the event and then also a calling card piece for the mission-driven organization to put up on their website.
