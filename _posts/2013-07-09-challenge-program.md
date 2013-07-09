@@ -4,7 +4,7 @@ title: Challenge Program
 categories: work
 video: 69591821 
 author: Zach Phillips
-synopsis: One of our favorite outfits in Wilmington, and an organization you really need to know about.
+synopsis: One of our favorite outfits in Wilmington, and an organization you really need to know about
 ---
 
 When I moved to Delaware a few years ago, I didn't know anyone, and
