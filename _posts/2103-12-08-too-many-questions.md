@@ -4,8 +4,7 @@ title: Choose Health Delaware: Accidents Happen
 categories: work
 video: 75863071
 author: Zach Phillips
-synopsis: A series of TV spots for Delaware's implementation of the
-Affordable Care Act, produced in collaboration with ab+c Creative Intelligence
+synopsis: A series of TV spots for Delaware's implementation of the Affordable Care Act, produced in collaboration with ab+c Creative Intelligence
 ---
 
 It's been a little while now since we've done these spots, but I had
