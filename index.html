@@ -30,6 +30,8 @@ description: the Kitchen is a Delaware-based film and video production house spe
 
 {% for post in site.posts | limit: 1 %}
 
+{% unless post.category == "rentals" %}
+
 <article class="top">
 	{% if post.video %}
 	<iframe src="http://player.vimeo.com/video/{{ post.video }}" width="1280" height="720" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -40,11 +42,15 @@ description: the Kitchen is a Delaware-based film and video production house spe
 	<p>{{ post.synopsis }}</p> <p><a href="{{ post.url }}">read post</a></p>
 </article>
 
+{% endunless %}
+
 {% endfor %}
 
 <section class="featured">
 	
 {% for post in site.posts | offset: 1 %}
+
+{% unless post.category == "rentals" %}
 
 <article class="grid">
 	{% if post.video %}
@@ -55,6 +61,8 @@ description: the Kitchen is a Delaware-based film and video production house spe
 	<a href="{{ post.url }}"><h3 class="league">{{ post.title }}</h3></a>
 	<p>{{ post.synopsis }}</p> <p><a href="{{ post.url }}">read post</a></p>
 </article>
+
+{% endunless %}
 
 {% endfor %}
 	

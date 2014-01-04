@@ -1,0 +1,14 @@
+---
+layout: rentals
+---
+
+{% for post in site.categories.rentals %}
+
+<article class="gear">
+	<h2 class="gearhead museo">{{ post.department }}</h2>
+	
+	{{ post.content }}
+	
+</article>
+
+{% endfor %}
