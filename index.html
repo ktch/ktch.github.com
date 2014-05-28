@@ -27,7 +27,7 @@ description: the Kitchen is a Delaware-based film and video production house spe
   <!--<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>-->
               
 <!--</div>-->
-
+<!--
 {% for post in site.posts | limit: 1 %}
 
 {% unless post.category == "rentals" %}
@@ -45,10 +45,10 @@ description: the Kitchen is a Delaware-based film and video production house spe
 {% endunless %}
 
 {% endfor %}
-
+-->
 <section class="featured">
 	
-{% for post in site.posts | offset: 1 %}
+{% for post in site.posts %}
 
 {% unless post.category == "rentals" %}
 
